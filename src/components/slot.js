@@ -253,249 +253,232 @@ function switcherAnimation(cb, index) {
 
   let timeline = new TimelineMax();
 
-      // Randomize Beam Attributes
-      const beamAttrs = getRandomBeamAttributes(16);
-      timeline.to( ray0, 0, { css: { stroke: beamAttrs.stroke[0], strokeWidth: beamAttrs.strokeWidth[0], strokeDasharray: beamAttrs.strokeDash[0], strokeDashoffset: beamAttrs.strokeDashOffset[0], opacity: 1 } }, 0 );
-      timeline.to( ray1, 0, { css: { stroke: beamAttrs.stroke[1], strokeWidth: beamAttrs.strokeWidth[1], strokeDasharray: beamAttrs.strokeDash[1], strokeDashoffset: beamAttrs.strokeDashOffset[1], opacity: 1 } }, 0 );
-      timeline.to( ray2, 0, { css: { stroke: beamAttrs.stroke[2], strokeWidth: beamAttrs.strokeWidth[2], strokeDasharray: beamAttrs.strokeDash[2], strokeDashoffset: beamAttrs.strokeDashOffset[2], opacity: 1 } }, 0 );
-      timeline.to( ray3, 0, { css: { stroke: beamAttrs.stroke[3], strokeWidth: beamAttrs.strokeWidth[3], strokeDasharray: beamAttrs.strokeDash[3], strokeDashoffset: beamAttrs.strokeDashOffset[3], opacity: 1 } }, 0 );
-      timeline.to( ray4, 0, { css: { stroke: beamAttrs.stroke[4], strokeWidth: beamAttrs.strokeWidth[4], strokeDasharray: beamAttrs.strokeDash[4], strokeDashoffset: beamAttrs.strokeDashOffset[4], opacity: 1 } }, 0 );
-      timeline.to( ray5, 0, { css: { stroke: beamAttrs.stroke[5], strokeWidth: beamAttrs.strokeWidth[5], strokeDasharray: beamAttrs.strokeDash[5], strokeDashoffset: beamAttrs.strokeDashOffset[5], opacity: 1 } }, 0 );
-      timeline.to( ray6, 0, { css: { stroke: beamAttrs.stroke[6], strokeWidth: beamAttrs.strokeWidth[6], strokeDasharray: beamAttrs.strokeDash[6], strokeDashoffset: beamAttrs.strokeDashOffset[6], opacity: 1 } }, 0 );
-      timeline.to( ray7, 0, { css: { stroke: beamAttrs.stroke[7], strokeWidth: beamAttrs.strokeWidth[7], strokeDasharray: beamAttrs.strokeDash[7], strokeDashoffset: beamAttrs.strokeDashOffset[7], opacity: 1 } }, 0 );
-      timeline.to( ray8, 0, { css: { stroke: beamAttrs.stroke[8], strokeWidth: beamAttrs.strokeWidth[8], strokeDasharray: beamAttrs.strokeDash[8], strokeDashoffset: beamAttrs.strokeDashOffset[8], opacity: 1 } }, 0 );
-      timeline.to( ray9, 0, { css: { stroke: beamAttrs.stroke[9], strokeWidth: beamAttrs.strokeWidth[9], strokeDasharray: beamAttrs.strokeDash[9], strokeDashoffset: beamAttrs.strokeDashOffset[9], opacity: 1 } }, 0 );
-      timeline.to( ray10, 0, { css: { stroke: beamAttrs.stroke[10], strokeWidth: beamAttrs.strokeWidth[10], strokeDasharray: beamAttrs.strokeDash[10], strokeDashoffset: beamAttrs.strokeDashOffset[10], opacity: 1 } }, 0 );
-      timeline.to( ray11, 0, { css: { stroke: beamAttrs.stroke[11], strokeWidth: beamAttrs.strokeWidth[11], strokeDasharray: beamAttrs.strokeDash[11], strokeDashoffset: beamAttrs.strokeDashOffset[11], opacity: 1 } }, 0 );
-      timeline.to( ray12, 0, { css: { stroke: beamAttrs.stroke[12], strokeWidth: beamAttrs.strokeWidth[12], strokeDasharray: beamAttrs.strokeDash[12], strokeDashoffset: beamAttrs.strokeDashOffset[12], opacity: 1 } }, 0 );
-      timeline.to( ray13, 0, { css: { stroke: beamAttrs.stroke[13], strokeWidth: beamAttrs.strokeWidth[13], strokeDasharray: beamAttrs.strokeDash[13], strokeDashoffset: beamAttrs.strokeDashOffset[13], opacity: 1 } }, 0 );
-      timeline.to( ray14, 0, { css: { stroke: beamAttrs.stroke[14], strokeWidth: beamAttrs.strokeWidth[14], strokeDasharray: beamAttrs.strokeDash[14], strokeDashoffset: beamAttrs.strokeDashOffset[14], opacity: 1 } }, 0 );
-      timeline.to( ray15, 0, { css: { stroke: beamAttrs.stroke[15], strokeWidth: beamAttrs.strokeWidth[15], strokeDasharray: beamAttrs.strokeDash[15], strokeDashoffset: beamAttrs.strokeDashOffset[15], opacity: 1 } }, 0 );
-  
+  // Randomize Beam Attributes
+  const beamAttrs = getRandomBeamAttributes(16);
+  timeline.to(ray0, 0, { css: { stroke: beamAttrs.stroke[0], strokeWidth: beamAttrs.strokeWidth[0], strokeDasharray: beamAttrs.strokeDash[0], strokeDashoffset: beamAttrs.strokeDashOffset[0], opacity: 1 } }, 0);
+  timeline.to(ray1, 0, { css: { stroke: beamAttrs.stroke[1], strokeWidth: beamAttrs.strokeWidth[1], strokeDasharray: beamAttrs.strokeDash[1], strokeDashoffset: beamAttrs.strokeDashOffset[1], opacity: 1 } }, 0);
+  timeline.to(ray2, 0, { css: { stroke: beamAttrs.stroke[2], strokeWidth: beamAttrs.strokeWidth[2], strokeDasharray: beamAttrs.strokeDash[2], strokeDashoffset: beamAttrs.strokeDashOffset[2], opacity: 1 } }, 0);
+  timeline.to(ray3, 0, { css: { stroke: beamAttrs.stroke[3], strokeWidth: beamAttrs.strokeWidth[3], strokeDasharray: beamAttrs.strokeDash[3], strokeDashoffset: beamAttrs.strokeDashOffset[3], opacity: 1 } }, 0);
+  timeline.to(ray4, 0, { css: { stroke: beamAttrs.stroke[4], strokeWidth: beamAttrs.strokeWidth[4], strokeDasharray: beamAttrs.strokeDash[4], strokeDashoffset: beamAttrs.strokeDashOffset[4], opacity: 1 } }, 0);
+  timeline.to(ray5, 0, { css: { stroke: beamAttrs.stroke[5], strokeWidth: beamAttrs.strokeWidth[5], strokeDasharray: beamAttrs.strokeDash[5], strokeDashoffset: beamAttrs.strokeDashOffset[5], opacity: 1 } }, 0);
+  timeline.to(ray6, 0, { css: { stroke: beamAttrs.stroke[6], strokeWidth: beamAttrs.strokeWidth[6], strokeDasharray: beamAttrs.strokeDash[6], strokeDashoffset: beamAttrs.strokeDashOffset[6], opacity: 1 } }, 0);
+  timeline.to(ray7, 0, { css: { stroke: beamAttrs.stroke[7], strokeWidth: beamAttrs.strokeWidth[7], strokeDasharray: beamAttrs.strokeDash[7], strokeDashoffset: beamAttrs.strokeDashOffset[7], opacity: 1 } }, 0);
+  timeline.to(ray8, 0, { css: { stroke: beamAttrs.stroke[8], strokeWidth: beamAttrs.strokeWidth[8], strokeDasharray: beamAttrs.strokeDash[8], strokeDashoffset: beamAttrs.strokeDashOffset[8], opacity: 1 } }, 0);
+  timeline.to(ray9, 0, { css: { stroke: beamAttrs.stroke[9], strokeWidth: beamAttrs.strokeWidth[9], strokeDasharray: beamAttrs.strokeDash[9], strokeDashoffset: beamAttrs.strokeDashOffset[9], opacity: 1 } }, 0);
+  timeline.to(ray10, 0, { css: { stroke: beamAttrs.stroke[10], strokeWidth: beamAttrs.strokeWidth[10], strokeDasharray: beamAttrs.strokeDash[10], strokeDashoffset: beamAttrs.strokeDashOffset[10], opacity: 1 } }, 0);
+  timeline.to(ray11, 0, { css: { stroke: beamAttrs.stroke[11], strokeWidth: beamAttrs.strokeWidth[11], strokeDasharray: beamAttrs.strokeDash[11], strokeDashoffset: beamAttrs.strokeDashOffset[11], opacity: 1 } }, 0);
+  timeline.to(ray12, 0, { css: { stroke: beamAttrs.stroke[12], strokeWidth: beamAttrs.strokeWidth[12], strokeDasharray: beamAttrs.strokeDash[12], strokeDashoffset: beamAttrs.strokeDashOffset[12], opacity: 1 } }, 0);
+  timeline.to(ray13, 0, { css: { stroke: beamAttrs.stroke[13], strokeWidth: beamAttrs.strokeWidth[13], strokeDasharray: beamAttrs.strokeDash[13], strokeDashoffset: beamAttrs.strokeDashOffset[13], opacity: 1 } }, 0);
+  timeline.to(ray14, 0, { css: { stroke: beamAttrs.stroke[14], strokeWidth: beamAttrs.strokeWidth[14], strokeDasharray: beamAttrs.strokeDash[14], strokeDashoffset: beamAttrs.strokeDashOffset[14], opacity: 1 } }, 0);
+  timeline.to(ray15, 0, { css: { stroke: beamAttrs.stroke[15], strokeWidth: beamAttrs.strokeWidth[15], strokeDasharray: beamAttrs.strokeDash[15], strokeDashoffset: beamAttrs.strokeDashOffset[15], opacity: 1 } }, 0);
+
 
   if (hiddenSub) {
 
-    const topLeft = document.querySelector( '.left6' );
-    const topRight = document.querySelector( '.right8' );
+    const topLeft = document.querySelector('.left6');
+    const topRight = document.querySelector('.right8');
 
-    const launchInfoLeft = beamLaunchInfo( leftBeam, topLeft );
+    const launchInfoLeft = beamLaunchInfo(leftBeam, topLeft);
     let launchXLeft = launchInfoLeft.end[0] - launchInfoLeft.start[0];
     let launchYLeft = launchInfoLeft.end[1] - launchInfoLeft.start[1];
 
-    const launchInfoRight = beamLaunchInfo( rightBeam, topRight );
+    const launchInfoRight = beamLaunchInfo(rightBeam, topRight);
     let launchXRight = launchInfoRight.end[0] - launchInfoRight.start[0];
     let launchYRight = launchInfoRight.end[1] - launchInfoRight.start[1];
 
-    const pathElLeft = document.querySelector( "#beamPathElLeft" );
-    const beamStartLeft = buildBeam( rayFocusLeft );
-    const beamPathLeft = buildBeam( scanLeftSlotsBack );
-    const beamPathLeft2 = buildBeam( scanLeftSlotsBackThin );
-    const beamPathLeft3 = buildBeam( scanLeftSlotsThin );
-    const beamPathLeft4 = buildBeam( scanLeftSlots );
-    const beamPathLeft5 = buildBeam( rayFocusLeft );
+    const pathElLeft = document.querySelector("#beamPathElLeft");
+    const beamStartLeft = buildBeam(rayFocusLeft);
+    const beamPathLeft = buildBeam(scanLeftSlotsBack);
+    const beamPathLeft2 = buildBeam(scanLeftSlotsBackThin);
+    const beamPathLeft3 = buildBeam(scanLeftSlotsThin);
+    const beamPathLeft4 = buildBeam(scanLeftSlots);
+    const beamPathLeft5 = buildBeam(rayFocusLeft);
 
-    // 0, .2, .35, .45, .55, .7, .9
-    timeline.set( pathElLeft, { attr: { d: beamStartLeft }, css:{ opacity: .6 } }, 0 );
-    timeline.to( pathElLeft, .25, { attr: { d: beamPathLeft }, ease: Power2.easeIn }, 0 );
-    timeline.to( pathElLeft, .2, { attr: { d: beamPathLeft2 }, ease: Power2.easeNone }, .25 );
-    timeline.to( pathElLeft, .15, { attr: { d: beamPathLeft3 }, ease: Power2.easeNone }, .45 );
-    timeline.to( pathElLeft, .15, { attr: { d: beamPathLeft4 }, ease: Power2.easeNone }, .6 );
-    timeline.to( pathElLeft, .25, { attr: { d: beamPathLeft5 }, ease: Power2.easeNone }, .75 );
-    timeline.set( pathElLeft, { css: { opacity: 0 } }, 1 );
-    timeline.set( pathElLeft, { attr: { d: "" } }, 1 );
+    const pathElRight = document.querySelector("#beamPathElRight");
+    const beamStartRight = buildBeam(rayFocus);
+    const beamPathRight = buildBeam(scanRightSlotsBack);
+    const beamPathRight2 = buildBeam(scanRightSlotsBackThin);
+    const beamPathRight3 = buildBeam(scanRightSlotsThin);
+    const beamPathRight4 = buildBeam(scanRightSlots);
+    const beamPathRight5 = buildBeam(rayFocus);
 
-    const pathElRight = document.querySelector( "#beamPathElRight" );
-    const beamStartRight = buildBeam( rayFocus );
-    const beamPathRight = buildBeam( scanRightSlotsBack );
-    const beamPathRight2 = buildBeam( scanRightSlotsBackThin );
-    const beamPathRight3 = buildBeam( scanRightSlotsThin );
-    const beamPathRight4 = buildBeam( scanRightSlots );
-    const beamPathRight5 = buildBeam( rayFocus );
+    // Setup
+    timeline.set(pathElLeft, { attr: { d: beamStartLeft }, css: { opacity: .6 } }, 0);
+    timeline.set(pathElRight, { attr: { d: beamStartRight }, css: { opacity: .6 } }, 0);
+    timeline.call(moveRaysTo, [2, rayFocusLeft, "square", 0, Power2.easeNone], null, 0);
+    timeline.call(moveRaysTo, [1, rayFocus, "square", 0, Power2.easeNone], null, 0);
 
-    // 0, .2, .35, .45, .55, .7, .9
-    timeline.set( pathElRight, { attr: { d: beamStartRight }, css:{ opacity: .6 } }, 0 );
-    timeline.to( pathElRight, .25, { attr: { d: beamPathRight }, ease: Power2.easeIn }, 0 );
-    timeline.to( pathElRight, .2, { attr: { d: beamPathRight2 }, ease: Power2.easeNone }, .25 );
-    timeline.to( pathElRight, .15, { attr: { d: beamPathRight3 }, ease: Power2.easeNone }, .45 );
-    timeline.to( pathElRight, .15, { attr: { d: beamPathRight4 }, ease: Power2.easeNone }, .6 );
-    timeline.to( pathElRight, .25, { attr: { d: beamPathRight5 }, ease: Power2.easeNone }, .75 );
-    timeline.set( pathElRight, { css: { opacity: 0 } }, 1 );
-    timeline.set( pathElRight, { attr: { d: "" } }, 1 );
+    // Launch Beam
+    timeline.to(leftBeam, .25, { css: { x: launchXLeft + "px", y: launchYLeft + "px", width: 75, height: 235, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)" }, ease: Power2.easeIn }, 0);
+    timeline.to(rightBeam, .25, { css: { x: launchXRight + "px", y: launchYRight + "px", width: 75, height: 155, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)" }, ease: Power2.easeIn }, 0);
+    timeline.to(pathElLeft, .25, { attr: { d: beamPathLeft }, ease: Power2.easeIn }, 0);
+    timeline.to(pathElRight, .25, { attr: { d: beamPathRight }, ease: Power2.easeIn }, 0);
+    timeline.call(moveRaysTo, [2, scanLeftSlotsBack, "tall", .25, Power2.easeIn], null, 0);
+    timeline.call(moveRaysTo, [1, scanRightSlotsBack, "tall", .25, Power2.easeIn], null, 0);
 
+    // Shrink Out    
+    timeline.to(pathElLeft, .2, { attr: { d: beamPathLeft2 }, ease: Power2.easeNone }, .25);
+    timeline.to(pathElRight, .2, { attr: { d: beamPathRight2 }, ease: Power2.easeNone }, .25);
+    timeline.call(moveRaysTo, [2, scanLeftSlotsBackThin, "tall", .2, Power2.easeNone], null, .25);
+    timeline.call(moveRaysTo, [1, scanRightSlotsBackThin, "tall", .2, Power2.easeNone], null, .25);
+    timeline.to(leftBeam, .2, { css: { width: 2 }, ease: Linear.easeNone }, .25);
+    timeline.to(rightBeam, .2, { css: { width: 2, x: launchXRight + 73 + "px" }, ease: Linear.easeNone }, .25);
+    timeline.to(gearBarLeft, .2, { css: { scaleX: .2, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, .25);
+    timeline.to(gearBarRight, .2, { css: { scaleX: .2, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, .25);
 
-    timeline.call( moveRaysTo, [ 2, rayFocusLeft, "square", 0, Power2.easeNone ], null, 0 );
-    timeline.call( moveRaysTo, [ 1, rayFocus, "square", 0, Power2.easeNone ], null, 0 );
+    // Expand Up
+    timeline.to(pathElLeft, .15, { attr: { d: beamPathLeft3 }, ease: Power2.easeNone }, .45);
+    timeline.to(pathElRight, .15, { attr: { d: beamPathRight3 }, ease: Power2.easeNone }, .45);
+    timeline.call(moveRaysTo, [2, scanLeftSlotsThin, "tall", .15, Power2.easeNone], null, .45);
+    timeline.call(moveRaysTo, [1, scanRightSlotsThin, "tall", .15, Power2.easeNone], null, .45);
+    timeline.to(leftBeam, .15, { css: { y: launchYLeft - 70 + "px", height: 400 }, ease: Power2.easeNone }, .45);
+    timeline.to(rightBeam, .15, { css: { y: launchYRight - 160 + "px", height: 475 }, ease: Power2.easeNone }, .45);
+    timeline.to(gearBarLeft, 0.15, { css: { scaleY: 1.5, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, .45);
+    timeline.to(gearBarRight, 0.15, { css: { scaleY: 2.6, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, .45);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsBack, "tall", .25, Power2.easeIn ], null, 0 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsBack, "tall", .25, Power2.easeIn ], null, 0 );
+    // Expand In
+    timeline.to(pathElLeft, .15, { attr: { d: beamPathLeft4 }, ease: Power2.easeNone }, .6);
+    timeline.to(pathElRight, .15, { attr: { d: beamPathRight4 }, ease: Power2.easeNone }, .6);
+    timeline.call(moveRaysTo, [2, scanLeftSlots, "tall", .15, Power2.easeNone], null, .6);
+    timeline.call(moveRaysTo, [1, scanRightSlots, "tall", .15, Power2.easeNone], null, .6);
+    timeline.to(leftBeam, 0.15, { css: { width: 75 }, ease: Linear.easeNone }, 0.6);
+    timeline.to(rightBeam, 0.15, { css: { width: 75, x: launchXRight + "px" }, ease: Linear.easeNone }, 0.6);
+    timeline.to(gearBarLeft, .15, { css: { scaleX: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.6);
+    timeline.to(gearBarRight, .15, { css: { scaleX: 1, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.6);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsBackThin, "tall", .2, Power2.easeNone ], null, .25 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsBackThin, "tall", .2, Power2.easeNone ], null, .25 );
+    // Trigger State Change and Scale Bars Back To Normal Height
+    timeline.call(cb, [index], null, 0.6);
+    timeline.set(gearBarLeft, { css: { scaleY: 1 } }, 0.6);
+    timeline.set(gearBarRight, { css: { scaleY: 1 } }, 0.6);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsThin, "tall", .15, Power2.easeNone ], null, .45 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsThin, "tall", .15, Power2.easeNone ], null, .45 );
-
-    timeline.call( moveRaysTo, [ 2, scanLeftSlots, "tall", .15, Power2.easeNone ], null, .6 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlots, "tall", .15, Power2.easeNone ], null, .6 );
-    
-    timeline.call( moveRaysTo, [ 2, rayFocusLeft, "square", .25, Power2.easeNone ], null, .75 );
-    timeline.call( moveRaysTo, [ 1, rayFocus, "square", .25, Power2.easeNone ], null, .75 );
-
-    timeline.set( ".beamRay", { css: { opacity: 0 } }, 1 );
-
-    // Launch Beam Targets
-    timeline.to( leftBeam, .25, { css: { x: launchXLeft + "px", y: launchYLeft + "px", width: 75, height: 235, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)"},ease: Power2.easeIn },0);
-    timeline.to( rightBeam, .25, { css: { x: launchXRight + "px", y: launchYRight + "px", width: 75, height: 155, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)"},ease: Power2.easeIn },0);
-
-    // Shrink Beam Targets Out
-    timeline.to( leftBeam, .2, { css: { width: 2 }, ease: Linear.easeNone}, .25 );
-    timeline.to( rightBeam, .2, { css: { width: 2, x: launchXRight + 73 + "px" }, ease: Linear.easeNone }, .25 );
-
-    // Shrink Bars Out
-    timeline.to( gearBarLeft, 0.15, {css: { scaleX: .2, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, .25 );
-    timeline.to( gearBarRight, 0.15, { css: { scaleX: .2, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, .25 );
-
-    // Expand Beam Targets Up
-    timeline.to( leftBeam, .15, { css: { y: launchYLeft - 70 + "px", height: 400 }, ease: Power2.easeNone }, .45 );
-    timeline.to( rightBeam, .15, { css: { y: launchYRight - 160 + "px", height: 475 }, ease: Power2.easeNone }, .45 );
-
-    // Expand Bars Up
-    // Scale over 1 to account for bigger front bars
-    timeline.to( gearBarLeft, 0.15, { css: { scaleY: 1.5, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, .45 );
-    timeline.to( gearBarRight, 0.15, { css: { scaleY: 2.6, transformOrigin: "100% 50%" }, ease: Linear.easeNone}, .45 );
-
-    // Trigger State Change
-    timeline.call( cb, [index], null, 0.6 );
-
-    // Scale Bars Back To Normal Height
-    timeline.set( gearBarLeft, { css: { scaleY: 1 } }, 0.6 );
-    timeline.set( gearBarRight, { css: { scaleY: 1 } }, 0.6 );
-
-    // Expand Beam Targets In
-    timeline.to( leftBeam, 0.15, { css: { width: 75 }, ease: Linear.easeNone }, 0.6 );
-    timeline.to( rightBeam, 0.15, { css: { width: 75, x: launchXRight + "px" }, ease: Linear.easeNone }, 0.6 );
-
-    // Expand Bars In
-    timeline.to( gearBarLeft, .15, { css: { scaleX: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.6 );
-    timeline.to( gearBarRight, .15, { css: { scaleX: 1, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.6 );
-
-    // Return Beams to Ghost
-    timeline.to( leftBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75 );
-    timeline.to( rightBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75 );
+    // Return Beam
+    timeline.to(pathElLeft, .25, { attr: { d: beamPathLeft5 }, ease: Power2.easeNone }, .75);
+    timeline.to(pathElRight, .25, { attr: { d: beamPathRight5 }, ease: Power2.easeNone }, .75);
+    timeline.call(moveRaysTo, [2, rayFocusLeft, "square", .25, Power2.easeNone], null, .75);
+    timeline.call(moveRaysTo, [1, rayFocus, "square", .25, Power2.easeNone], null, .75);
+    timeline.to(leftBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75);
+    timeline.to(rightBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75);
 
     // Expand Subclass / Remove Switched Class
-    timeline.to(subclass, 0.15, { css: { scale: 1, transformOrigin: "50% 50%" }, ease: Linear.easeNone }, 0.75 );
+    timeline.to(subclass, 0.15, { css: { scale: 1, transformOrigin: "50% 50%" }, ease: Linear.easeNone }, 0.75);
+
+    // Reset
+    timeline.set(pathElLeft, { css: { opacity: 0 } }, 1);
+    timeline.set(pathElLeft, { attr: { d: "" } }, 1);
+    timeline.set(pathElRight, { css: { opacity: 0 } }, 1);
+    timeline.set(pathElRight, { attr: { d: "" } }, 1);
+    timeline.set(".beamRay", { css: { opacity: 0 } }, 1);
 
   } else {
 
-    const topLeft = document.querySelector( '.left1' );
-    const topRight = document.querySelector( '.right1' );
+    const topLeft = document.querySelector('.left1');
+    const topRight = document.querySelector('.right1');
 
-    const launchInfoLeft = beamLaunchInfo( leftBeam, topLeft );
+    const launchInfoLeft = beamLaunchInfo(leftBeam, topLeft);
     let launchXLeft = launchInfoLeft.end[0] - launchInfoLeft.start[0];
     let launchYLeft = launchInfoLeft.end[1] - launchInfoLeft.start[1];
 
-    const launchInfoRight = beamLaunchInfo( rightBeam, topRight );
+    const launchInfoRight = beamLaunchInfo(rightBeam, topRight);
     let launchXRight = launchInfoRight.end[0] - launchInfoRight.start[0];
     let launchYRight = launchInfoRight.end[1] - launchInfoRight.start[1];
 
-    const pathElLeft = document.querySelector( "#beamPathElLeft" );
-    const beamStartLeft = buildBeam( rayFocusLeft );
-    const beamPathLeft = buildBeam( scanLeftSlots );
-    const beamPathLeft2 = buildBeam( scanLeftSlotsThin );
-    const beamPathLeft3 = buildBeam( scanLeftSlotsBackThin );
-    const beamPathLeft4 = buildBeam( scanLeftSlotsBack );
-    const beamPathLeft5 = buildBeam( rayFocusLeft );
+    const pathElLeft = document.querySelector("#beamPathElLeft");
+    const beamStartLeft = buildBeam(rayFocusLeft);
+    const beamPathLeft = buildBeam(scanLeftSlots);
+    const beamPathLeft2 = buildBeam(scanLeftSlotsThin);
+    const beamPathLeft3 = buildBeam(scanLeftSlotsBackThin);
+    const beamPathLeft4 = buildBeam(scanLeftSlotsBack);
+    const beamPathLeft5 = buildBeam(rayFocusLeft);
 
     // 0, .2, .35, .45, .55, .7, .9
-    timeline.set( pathElLeft, { attr: { d: beamStartLeft }, css:{ opacity: .6 } }, 0 );
-    timeline.to( pathElLeft, .25, { attr: { d: beamPathLeft }, ease: Power2.easeIn }, 0 );
-    timeline.to( pathElLeft, .2, { attr: { d: beamPathLeft2 }, ease: Power2.easeNone }, .25 );
-    timeline.to( pathElLeft, .15, { attr: { d: beamPathLeft3 }, ease: Power2.easeNone }, .45 );
-    timeline.to( pathElLeft, .15, { attr: { d: beamPathLeft4 }, ease: Power2.easeNone }, .6 );
-    timeline.to( pathElLeft, .25, { attr: { d: beamPathLeft5 }, ease: Power2.easeNone }, .75 );
-    timeline.set( pathElLeft, { css: { opacity: 0 } }, 1 );
-    timeline.set( pathElLeft, { attr: { d: "" } }, 1 );
+    timeline.set(pathElLeft, { attr: { d: beamStartLeft }, css: { opacity: .6 } }, 0);
+    timeline.to(pathElLeft, .25, { attr: { d: beamPathLeft }, ease: Power2.easeIn }, 0);
+    timeline.to(pathElLeft, .2, { attr: { d: beamPathLeft2 }, ease: Power2.easeNone }, .25);
+    timeline.to(pathElLeft, .15, { attr: { d: beamPathLeft3 }, ease: Power2.easeNone }, .45);
+    timeline.to(pathElLeft, .15, { attr: { d: beamPathLeft4 }, ease: Power2.easeNone }, .6);
+    timeline.to(pathElLeft, .25, { attr: { d: beamPathLeft5 }, ease: Power2.easeNone }, .75);
+    timeline.set(pathElLeft, { css: { opacity: 0 } }, 1);
+    timeline.set(pathElLeft, { attr: { d: "" } }, 1);
 
-    const pathElRight = document.querySelector( "#beamPathElRight" );
-    const beamStartRight = buildBeam( rayFocus );
-    const beamPathRight = buildBeam( scanRightSlots );
-    const beamPathRight2 = buildBeam( scanRightSlotsThin );
-    const beamPathRight3 = buildBeam( scanRightSlotsBackThin );
-    const beamPathRight4 = buildBeam( scanRightSlotsBack );
-    const beamPathRight5 = buildBeam( rayFocus );
+    const pathElRight = document.querySelector("#beamPathElRight");
+    const beamStartRight = buildBeam(rayFocus);
+    const beamPathRight = buildBeam(scanRightSlots);
+    const beamPathRight2 = buildBeam(scanRightSlotsThin);
+    const beamPathRight3 = buildBeam(scanRightSlotsBackThin);
+    const beamPathRight4 = buildBeam(scanRightSlotsBack);
+    const beamPathRight5 = buildBeam(rayFocus);
 
     // 0, .2, .35, .45, .55, .7, .9
-    timeline.set( pathElRight, { attr: { d: beamStartRight }, css:{ opacity: .6 } }, 0 );
-    timeline.to( pathElRight, .25, { attr: { d: beamPathRight }, ease: Power2.easeIn }, 0 );
-    timeline.to( pathElRight, .2, { attr: { d: beamPathRight2 }, ease: Power2.easeNone }, .25 );
-    timeline.to( pathElRight, .15, { attr: { d: beamPathRight3 }, ease: Power2.easeNone }, .45 );
-    timeline.to( pathElRight, .15, { attr: { d: beamPathRight4 }, ease: Power2.easeNone }, .6 );
-    timeline.to( pathElRight, .25, { attr: { d: beamPathRight5 }, ease: Power2.easeNone }, .75 );
-    timeline.set( pathElRight, { css: { opacity: 0 } }, 1 );
-    timeline.set( pathElRight, { attr: { d: "" } }, 1 );
+    timeline.set(pathElRight, { attr: { d: beamStartRight }, css: { opacity: .6 } }, 0);
+    timeline.to(pathElRight, .25, { attr: { d: beamPathRight }, ease: Power2.easeIn }, 0);
+    timeline.to(pathElRight, .2, { attr: { d: beamPathRight2 }, ease: Power2.easeNone }, .25);
+    timeline.to(pathElRight, .15, { attr: { d: beamPathRight3 }, ease: Power2.easeNone }, .45);
+    timeline.to(pathElRight, .15, { attr: { d: beamPathRight4 }, ease: Power2.easeNone }, .6);
+    timeline.to(pathElRight, .25, { attr: { d: beamPathRight5 }, ease: Power2.easeNone }, .75);
+    timeline.set(pathElRight, { css: { opacity: 0 } }, 1);
+    timeline.set(pathElRight, { attr: { d: "" } }, 1);
 
-    timeline.call( moveRaysTo, [ 2, rayFocusLeft, "square", 0, Power2.easeNone ], null, 0 );
-    timeline.call( moveRaysTo, [ 1, rayFocus, "square", 0, Power2.easeNone ], null, 0 );
+    timeline.call(moveRaysTo, [2, rayFocusLeft, "square", 0, Power2.easeNone], null, 0);
+    timeline.call(moveRaysTo, [1, rayFocus, "square", 0, Power2.easeNone], null, 0);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlots, "tall", .25, Power2.easeIn ], null, 0 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlots, "tall", .25, Power2.easeIn ], null, 0 );
+    timeline.call(moveRaysTo, [2, scanLeftSlots, "tall", .25, Power2.easeIn], null, 0);
+    timeline.call(moveRaysTo, [1, scanRightSlots, "tall", .25, Power2.easeIn], null, 0);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsThin, "tall", .2, Power2.easeNone ], null, .25 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsThin, "tall", .2, Power2.easeNone ], null, .25 );
+    timeline.call(moveRaysTo, [2, scanLeftSlotsThin, "tall", .2, Power2.easeNone], null, .25);
+    timeline.call(moveRaysTo, [1, scanRightSlotsThin, "tall", .2, Power2.easeNone], null, .25);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsBackThin, "tall", .15, Power2.easeNone ], null, .45 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsBackThin, "tall", .15, Power2.easeNone ], null, .45 );
+    timeline.call(moveRaysTo, [2, scanLeftSlotsBackThin, "tall", .15, Power2.easeNone], null, .45);
+    timeline.call(moveRaysTo, [1, scanRightSlotsBackThin, "tall", .15, Power2.easeNone], null, .45);
 
-    timeline.call( moveRaysTo, [ 2, scanLeftSlotsBack, "tall", .15, Power2.easeNone ], null, .6 );
-    timeline.call( moveRaysTo, [ 1, scanRightSlotsBack, "tall", .15, Power2.easeNone ], null, .6 );
-    
-    timeline.call( moveRaysTo, [ 2, rayFocusLeft, "square", .25, Power2.easeNone ], null, .75 );
-    timeline.call( moveRaysTo, [ 1, rayFocus, "square", .25, Power2.easeNone ], null, .75 );
+    timeline.call(moveRaysTo, [2, scanLeftSlotsBack, "tall", .15, Power2.easeNone], null, .6);
+    timeline.call(moveRaysTo, [1, scanRightSlotsBack, "tall", .15, Power2.easeNone], null, .6);
 
-    timeline.set( ".beamRay", { css: { opacity: 0 } }, 1 );
+    timeline.call(moveRaysTo, [2, rayFocusLeft, "square", .25, Power2.easeNone], null, .75);
+    timeline.call(moveRaysTo, [1, rayFocus, "square", .25, Power2.easeNone], null, .75);
+
+    timeline.set(".beamRay", { css: { opacity: 0 } }, 1);
 
     // Launch Beam Targets
-    timeline.to( leftBeam, .25, { css: { x: launchXLeft + "px", y: launchYLeft + "px", width: 75, height: 400, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)"},ease: Power2.easeIn },0);
-    timeline.to( rightBeam, .25, { css: { x: launchXRight + "px", y: launchYRight + "px", width: 75, height: 475, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)"},ease: Power2.easeIn },0);
+    timeline.to(leftBeam, .25, { css: { x: launchXLeft + "px", y: launchYLeft + "px", width: 75, height: 400, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)" }, ease: Power2.easeIn }, 0);
+    timeline.to(rightBeam, .25, { css: { x: launchXRight + "px", y: launchYRight + "px", width: 75, height: 475, border: "2px solid rgba(0, 191, 255, 1)", backgroundColor: "rgba(0, 191, 255, .6)" }, ease: Power2.easeIn }, 0);
 
     // Shrink Beam Targets Out
-    timeline.to( leftBeam, .2, { css: { width: 2 }, ease: Linear.easeNone}, .25 );
-    timeline.to( rightBeam, .2, { css: { width: 2, x: launchXRight + 73 + "px" }, ease: Linear.easeNone }, .25 );
-    
+    timeline.to(leftBeam, .2, { css: { width: 2 }, ease: Linear.easeNone }, .25);
+    timeline.to(rightBeam, .2, { css: { width: 2, x: launchXRight + 73 + "px" }, ease: Linear.easeNone }, .25);
+
     // Shrink Bars Out
-    timeline.to( gearBarLeft, 0.2, {css: { scaleX: 0.01, transformOrigin: "0% 50%" },ease: Linear.easeNone}, .25 );
-    timeline.to( gearBarRight, 0.2, {css: { scaleX: 0.01, transformOrigin: "100% 50%" },ease: Linear.easeNone}, .25 );
+    timeline.to(gearBarLeft, 0.2, { css: { scaleX: 0.01, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, .25);
+    timeline.to(gearBarRight, 0.2, { css: { scaleX: 0.01, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, .25);
 
     // Shrink Subclass / Add Switched Class
-    timeline.to( subclass, 0.15, { css: { scale: 0, transformOrigin: "50% 50%" }, ease: Linear.easeNone }, 0 );
+    timeline.to(subclass, 0.15, { css: { scale: 0, transformOrigin: "50% 50%" }, ease: Linear.easeNone }, 0);
 
     // Shrink Beam Targets Down
-    timeline.to( leftBeam, 0.15, { css: { y: launchYLeft + 70 + "px", height: 235 }, ease: Linear.easeNone}, 0.45 );
-    timeline.to( rightBeam, 0.15, { css: { y: launchYRight + 160 + "px", height: 155 }, ease: Linear.easeNone }, 0.45 );
+    timeline.to(leftBeam, 0.15, { css: { y: launchYLeft + 70 + "px", height: 235 }, ease: Linear.easeNone }, 0.45);
+    timeline.to(rightBeam, 0.15, { css: { y: launchYRight + 160 + "px", height: 155 }, ease: Linear.easeNone }, 0.45);
 
     // Shrink Bars Down
-    timeline.to( gearBarLeft, 0.15, { css: { scaleY: 0.69, transformOrigin: "0% 50%" },ease: Linear.easeNone}, 0.45 );
-    timeline.to( gearBarRight, 0.15, { css: { scaleY: 0.38, transformOrigin: "100% 50%" },ease: Linear.easeNone}, 0.45 );
+    timeline.to(gearBarLeft, 0.15, { css: { scaleY: 0.69, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.45);
+    timeline.to(gearBarRight, 0.15, { css: { scaleY: 0.38, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.45);
 
     // Trigger State Change
-    timeline.call( cb, [index], null, 0.6 );
+    timeline.call(cb, [index], null, 0.6);
 
     // Expand Bars Up
-    timeline.to( gearBarLeft, 0.15, { css: { scaleY: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.6 );
-    timeline.to( gearBarRight, 0.15, { css: { scaleY: 1, transformOrigin: "100% 50%" },ease: Linear.easeNone }, 0.6 );
+    timeline.to(gearBarLeft, 0.15, { css: { scaleY: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.6);
+    timeline.to(gearBarRight, 0.15, { css: { scaleY: 1, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.6);
 
     // Expand Beam Targets In
-    timeline.to( leftBeam, 0.15, { css: { width: 75 }, ease: Linear.easeNone }, 0.6 );
-    timeline.to( rightBeam, 0.15, { css: { width: 75, x: launchXRight + "px" }, ease: Linear.easeNone }, 0.6 );
+    timeline.to(leftBeam, 0.15, { css: { width: 75 }, ease: Linear.easeNone }, 0.6);
+    timeline.to(rightBeam, 0.15, { css: { width: 75, x: launchXRight + "px" }, ease: Linear.easeNone }, 0.6);
 
     // Expand Bars In
-    timeline.to( gearBarLeft, 0.25, { css: { scaleX: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.75 );
-    timeline.to( gearBarRight, 0.25, { css: { scaleX: 1, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.75 );
+    timeline.to(gearBarLeft, 0.25, { css: { scaleX: 1, transformOrigin: "0% 50%" }, ease: Linear.easeNone }, 0.75);
+    timeline.to(gearBarRight, 0.25, { css: { scaleX: 1, transformOrigin: "100% 50%" }, ease: Linear.easeNone }, 0.75);
 
     // Return Beams to Ghost
-    timeline.to( leftBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75 );
-    timeline.to( rightBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75 );
+    timeline.to(leftBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75);
+    timeline.to(rightBeam, 0.25, { css: { x: "0", y: "0", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeNone }, .75);
 
   }
 }
@@ -580,37 +563,37 @@ function focusSetup(side, pos, trigger) {
     if (thisSlot.className === focusClass) {
 
       // Position the return point for the beam
-      if ( side === "left" ) {
-        timeline.to( endEl, 0, { css: { x:-100 + "px", y: 15 + "px" } }, 0 );
+      if (side === "left") {
+        timeline.to(endEl, 0, { css: { x: -100 + "px", y: 15 + "px" } }, 0);
       } else {
-        timeline.to( endEl, 0, { css: { x: 100 + "px", y: 15 + "px" } }, 0 );
+        timeline.to(endEl, 0, { css: { x: 100 + "px", y: 15 + "px" } }, 0);
       }
-      
+
       // Decide which focus target for beam to move to
       const beamTargetSelector = side === "left" ? "#scan_focus_target" : "#scan_focus_target_right";
       const beamTargetSelector1 = side === "left" ? ".scan_beam_thin_target" : ".scan_beam_thin_target_right";
       const beamTargetSelector2 = side === "left" ? ".scanner_bucket" : ".scanner_bucket_right";
 
-      const pathEl = document.querySelector( "#beamPathEl" );
-      const beamStart = buildBeam( focusBeam );
-      const beamPath = buildBeam( thisSlot, side );
-      const beamPath2 = buildBeam( document.querySelector( beamTargetSelector ), side );
-      const beamPath3 = buildBeam( document.querySelector( beamTargetSelector1 ), side );
-      const beamPath4 = buildBeam( document.querySelector( beamTargetSelector2 ), side );
-      const beamEnd = buildBeam( endEl, side );
-      timeline.to( pathEl,  0, { attr: { d: beamStart }, css:{ opacity: .8 }, }, 0 );
+      const pathEl = document.querySelector("#beamPathEl");
+      const beamStart = buildBeam(focusBeam);
+      const beamPath = buildBeam(thisSlot, side);
+      const beamPath2 = buildBeam(document.querySelector(beamTargetSelector), side);
+      const beamPath3 = buildBeam(document.querySelector(beamTargetSelector1), side);
+      const beamPath4 = buildBeam(document.querySelector(beamTargetSelector2), side);
+      const beamEnd = buildBeam(endEl, side);
+      timeline.to(pathEl, 0, { attr: { d: beamStart }, css: { opacity: .8 }, }, 0);
       // Beam to Clicked Slot
-      timeline.to( pathEl, .5, { attr: { d: beamPath }, ease: Power2.easeOut }, 0 );
+      timeline.to(pathEl, .5, { attr: { d: beamPath }, ease: Power2.easeOut }, 0);
       // Beam to Focus
-      timeline.to( pathEl, .5, { attr: { d: beamPath2 }, ease: Power2.easeInOut }, .5 );
+      timeline.to(pathEl, .5, { attr: { d: beamPath2 }, ease: Power2.easeInOut }, .5);
       // Beam to bucket start
-      timeline.to( pathEl, 0.1, { attr: { d: beamPath3 }, ease: Power2.easeInOut }, 1 );
+      timeline.to(pathEl, 0.1, { attr: { d: beamPath3 }, ease: Power2.easeInOut }, 1);
       // Beam to bucket
-      timeline.to( pathEl, 0.5, { attr: { d: beamPath4 }, ease: Power2.easeInOut }, 1.1);
+      timeline.to(pathEl, 0.5, { attr: { d: beamPath4 }, ease: Power2.easeInOut }, 1.1);
       // Return Beam to Ghost
-      timeline.to( pathEl,  .5, { attr: { d: beamEnd }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( pathEl,  0, { attr: { d: "" } }, 2.1 );
-      timeline.to( endEl, 0, { css: { opacity: 0 } }, 2.1 );
+      timeline.to(pathEl, .5, { attr: { d: beamEnd }, ease: Power2.easeOut }, 1.6);
+      timeline.to(pathEl, 0, { attr: { d: "" } }, 2.1);
+      timeline.to(endEl, 0, { css: { opacity: 0 } }, 2.1);
 
       const moveInfo = getMoveInfo(thisSlot);
       const start = moveInfo.start;
@@ -637,33 +620,33 @@ function focusSetup(side, pos, trigger) {
 
       // Randomize Beam Attributes
       const beamAttrs = getRandomBeamAttributes(8);
-      timeline.to( ray0, 0, { css: { stroke: beamAttrs.stroke[0], strokeWidth: beamAttrs.strokeWidth[0], strokeDasharray: beamAttrs.strokeDash[0], strokeDashoffset: beamAttrs.strokeDashOffset[0] } }, 0 );
-      timeline.to( ray1, 0, { css: { stroke: beamAttrs.stroke[1], strokeWidth: beamAttrs.strokeWidth[1], strokeDasharray: beamAttrs.strokeDash[1], strokeDashoffset: beamAttrs.strokeDashOffset[1] } }, 0 );
-      timeline.to( ray2, 0, { css: { stroke: beamAttrs.stroke[2], strokeWidth: beamAttrs.strokeWidth[2], strokeDasharray: beamAttrs.strokeDash[2], strokeDashoffset: beamAttrs.strokeDashOffset[2] } }, 0 );
-      timeline.to( ray3, 0, { css: { stroke: beamAttrs.stroke[3], strokeWidth: beamAttrs.strokeWidth[3], strokeDasharray: beamAttrs.strokeDash[3], strokeDashoffset: beamAttrs.strokeDashOffset[3] } }, 0 );
-      timeline.to( ray4, 0, { css: { stroke: beamAttrs.stroke[4], strokeWidth: beamAttrs.strokeWidth[4], strokeDasharray: beamAttrs.strokeDash[4], strokeDashoffset: beamAttrs.strokeDashOffset[4] } }, 0 );
-      timeline.to( ray5, 0, { css: { stroke: beamAttrs.stroke[5], strokeWidth: beamAttrs.strokeWidth[5], strokeDasharray: beamAttrs.strokeDash[5], strokeDashoffset: beamAttrs.strokeDashOffset[5] } }, 0 );
-      timeline.to( ray6, 0, { css: { stroke: beamAttrs.stroke[6], strokeWidth: beamAttrs.strokeWidth[6], strokeDasharray: beamAttrs.strokeDash[6], strokeDashoffset: beamAttrs.strokeDashOffset[6] } }, 0 );
-      timeline.to( ray7, 0, { css: { stroke: beamAttrs.stroke[7], strokeWidth: beamAttrs.strokeWidth[7], strokeDasharray: beamAttrs.strokeDash[7], strokeDashoffset: beamAttrs.strokeDashOffset[7] } }, 0 );
+      timeline.to(ray0, 0, { css: { stroke: beamAttrs.stroke[0], strokeWidth: beamAttrs.strokeWidth[0], strokeDasharray: beamAttrs.strokeDash[0], strokeDashoffset: beamAttrs.strokeDashOffset[0] } }, 0);
+      timeline.to(ray1, 0, { css: { stroke: beamAttrs.stroke[1], strokeWidth: beamAttrs.strokeWidth[1], strokeDasharray: beamAttrs.strokeDash[1], strokeDashoffset: beamAttrs.strokeDashOffset[1] } }, 0);
+      timeline.to(ray2, 0, { css: { stroke: beamAttrs.stroke[2], strokeWidth: beamAttrs.strokeWidth[2], strokeDasharray: beamAttrs.strokeDash[2], strokeDashoffset: beamAttrs.strokeDashOffset[2] } }, 0);
+      timeline.to(ray3, 0, { css: { stroke: beamAttrs.stroke[3], strokeWidth: beamAttrs.strokeWidth[3], strokeDasharray: beamAttrs.strokeDash[3], strokeDashoffset: beamAttrs.strokeDashOffset[3] } }, 0);
+      timeline.to(ray4, 0, { css: { stroke: beamAttrs.stroke[4], strokeWidth: beamAttrs.strokeWidth[4], strokeDasharray: beamAttrs.strokeDash[4], strokeDashoffset: beamAttrs.strokeDashOffset[4] } }, 0);
+      timeline.to(ray5, 0, { css: { stroke: beamAttrs.stroke[5], strokeWidth: beamAttrs.strokeWidth[5], strokeDasharray: beamAttrs.strokeDash[5], strokeDashoffset: beamAttrs.strokeDashOffset[5] } }, 0);
+      timeline.to(ray6, 0, { css: { stroke: beamAttrs.stroke[6], strokeWidth: beamAttrs.strokeWidth[6], strokeDasharray: beamAttrs.strokeDash[6], strokeDashoffset: beamAttrs.strokeDashOffset[6] } }, 0);
+      timeline.to(ray7, 0, { css: { stroke: beamAttrs.stroke[7], strokeWidth: beamAttrs.strokeWidth[7], strokeDasharray: beamAttrs.strokeDash[7], strokeDashoffset: beamAttrs.strokeDashOffset[7] } }, 0);
 
       // Set Beam Ray Positions
-      timeline.to(ray0,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.x - svgData.left,y2: launchInfo.data.y}},0);
-      timeline.to(ray1,0,{ attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.right - svgData.left,y2: launchInfo.data.y}},0);
-      timeline.to(ray2,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.x - svgData.left,y2: launchInfo.data.bottom}},0);
-      timeline.to(ray3,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.right - svgData.left,y2: launchInfo.data.bottom}},0);
-      timeline.to(ray4,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.x - svgData.left,y2: launchInfo.data.y}},0);
-      timeline.to(ray5,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.right - svgData.left,y2: launchInfo.data.y}},0);
-      timeline.to(ray6,0,{attr: { x1: svgCenterX,y1: svgCenterY, x2: launchInfo.data.x - svgData.left, y2: launchInfo.data.bottom}},0);
-      timeline.to(ray7,0,{attr: {x1: svgCenterX,y1: svgCenterY,x2: launchInfo.data.right - svgData.left,y2: launchInfo.data.bottom}},0);
+      timeline.to(ray0, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.x - svgData.left, y2: launchInfo.data.y } }, 0);
+      timeline.to(ray1, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.right - svgData.left, y2: launchInfo.data.y } }, 0);
+      timeline.to(ray2, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.x - svgData.left, y2: launchInfo.data.bottom } }, 0);
+      timeline.to(ray3, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.right - svgData.left, y2: launchInfo.data.bottom } }, 0);
+      timeline.to(ray4, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.x - svgData.left, y2: launchInfo.data.y } }, 0);
+      timeline.to(ray5, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.right - svgData.left, y2: launchInfo.data.y } }, 0);
+      timeline.to(ray6, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.x - svgData.left, y2: launchInfo.data.bottom } }, 0);
+      timeline.to(ray7, 0, { attr: { x1: svgCenterX, y1: svgCenterY, x2: launchInfo.data.right - svgData.left, y2: launchInfo.data.bottom } }, 0);
 
-      timeline.to( ray0, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray1, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray2, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray3, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray4, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray5, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray6, 0, { css: { opacity: 1 } }, 0 );
-      timeline.to( ray7, 0, { css: { opacity: 1 } }, 0 );
+      timeline.to(ray0, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray1, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray2, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray3, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray4, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray5, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray6, 0, { css: { opacity: 1 } }, 0);
+      timeline.to(ray7, 0, { css: { opacity: 1 } }, 0);
 
       if (moveInfo.dims === 55) {
         dX = dX + 5;
@@ -703,116 +686,116 @@ function focusSetup(side, pos, trigger) {
       }
 
       // Move Beam to Clicked Slot
-      timeline.to( focusBeam, 0.5, { css: { x: launchX + "px", y: launchY + "px", width: launchInfo.dims, height: launchInfo.dims, border: "2px solid rgba(0, 191, 255, .85)", backgroundColor: "rgba(0, 191, 255, .75)"},ease: Power2.easeOut},0);
+      timeline.to(focusBeam, 0.5, { css: { x: launchX + "px", y: launchY + "px", width: launchInfo.dims, height: launchInfo.dims, border: "2px solid rgba(0, 191, 255, .85)", backgroundColor: "rgba(0, 191, 255, .75)" }, ease: Power2.easeOut }, 0);
 
       // Move Beam Ray Origins to Ghost
-      timeline.to(ray0,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray1,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray2,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray3,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray4,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray5,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray6,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
-      timeline.to(ray7,0.5,{ attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut },0);
+      timeline.to(ray0, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray1, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray2, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray3, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray4, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray5, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray6, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray7, 0.5, { attr: { x1: rayOriginX, y1: rayOriginY }, ease: Power2.easeOut }, 0);
 
       // Move Beam Rays to Clicked Slot
-      timeline.to( ray0, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray1, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray2, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray3, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray4, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims * 0.5, y2: rayLaunchY }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray5, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims * 0.5, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray6, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY + launchInfo.dims * 0.5 }, ease: Power2.easeOut }, 0 );
-      timeline.to( ray7, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY + launchInfo.dims * 0.5 }, ease: Power2.easeOut }, 0 );
+      timeline.to(ray0, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray1, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray2, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0);
+      timeline.to(ray3, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0);
+      timeline.to(ray4, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims * 0.5, y2: rayLaunchY }, ease: Power2.easeOut }, 0);
+      timeline.to(ray5, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims * 0.5, y2: rayLaunchY + launchInfo.dims }, ease: Power2.easeOut }, 0);
+      timeline.to(ray6, 0.5, { attr: { x2: rayLaunchX, y2: rayLaunchY + launchInfo.dims * 0.5 }, ease: Power2.easeOut }, 0);
+      timeline.to(ray7, 0.5, { attr: { x2: rayLaunchX + launchInfo.dims, y2: rayLaunchY + launchInfo.dims * 0.5 }, ease: Power2.easeOut }, 0);
 
       // Move Beam and Slot to Focus
-      timeline.to( thisSlot, 0.5, { css: { x: dX + "px", y: dY + "px" }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( focusBeam, 0.5, { css: { x: beamMoveX + "px", y: beamMoveY + "px" }, ease: Power2.easeInOut }, 0.5 );
+      timeline.to(thisSlot, 0.5, { css: { x: dX + "px", y: dY + "px" }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(focusBeam, 0.5, { css: { x: beamMoveX + "px", y: beamMoveY + "px" }, ease: Power2.easeInOut }, 0.5);
 
       // Move Beam Rays to Focus
-      timeline.to( ray0, 0.5, { attr: { x2: rayMoveX,                         y2: rayMoveY }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray1, 0.5, { attr: { x2: rayMoveX + launchInfo.dims,       y2: rayMoveY }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray2, 0.5, { attr: { x2: rayMoveX,                         y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray3, 0.5, { attr: { x2: rayMoveX + launchInfo.dims,       y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5, y2: rayMoveY }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5, y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray6, 0.5, { attr: { x2: rayMoveX,                         y2: rayMoveY + launchInfo.dims * 0.5 }, ease: Power2.easeInOut }, 0.5 );
-      timeline.to( ray7, 0.5, { attr: { x2: rayMoveX + launchInfo.dims,       y2: rayMoveY + launchInfo.dims * 0.5 }, ease: Power2.easeInOut }, 0.5 );
+      timeline.to(ray0, 0.5, { attr: { x2: rayMoveX, y2: rayMoveY }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray1, 0.5, { attr: { x2: rayMoveX + launchInfo.dims, y2: rayMoveY }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray2, 0.5, { attr: { x2: rayMoveX, y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray3, 0.5, { attr: { x2: rayMoveX + launchInfo.dims, y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5, y2: rayMoveY }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5, y2: rayMoveY + launchInfo.dims }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray6, 0.5, { attr: { x2: rayMoveX, y2: rayMoveY + launchInfo.dims * 0.5 }, ease: Power2.easeInOut }, 0.5);
+      timeline.to(ray7, 0.5, { attr: { x2: rayMoveX + launchInfo.dims, y2: rayMoveY + launchInfo.dims * 0.5 }, ease: Power2.easeInOut }, 0.5);
 
       // Move Beam to Bucket
-      if ( side === 'left' ) {
-        timeline.to( focusBeam, 0.1, { css: { x: beamMoveX + 85 + "px", width: ".05em" }, ease: Power2.easeInOut }, 1);
-      } else if ( side === 'right' ) {
-        timeline.to( focusBeam, 0.1, { css: { x: beamMoveX - 10 + "px", width: ".05em" }, ease: Power2.easeInOut }, 1);
+      if (side === 'left') {
+        timeline.to(focusBeam, 0.1, { css: { x: beamMoveX + 85 + "px", width: ".05em" }, ease: Power2.easeInOut }, 1);
+      } else if (side === 'right') {
+        timeline.to(focusBeam, 0.1, { css: { x: beamMoveX - 10 + "px", width: ".05em" }, ease: Power2.easeInOut }, 1);
       }
 
       // Move Beam Rays to Bucket
-      if ( side === 'left' ) {
-        timeline.to( ray0, 0.1, { attr: { x2: rayMoveX + 85                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray1, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10       }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray2, 0.1, { attr: { x2: rayMoveX + 85                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray3, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10       }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray4, 0.1, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 45 }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray5, 0.1, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 45 }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray6, 0.1, { attr: { x2: rayMoveX + 85                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray7, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10       }, ease: Power2.easeInOut }, 1 );
-      } else if ( side === 'right' ) {
-        timeline.to( ray0, 0.1, { attr: { x2: rayMoveX - 10                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray1, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65       }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray2, 0.1, { attr: { x2: rayMoveX - 10                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray3, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65       }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray4, 0.1, { attr: { x2: rayMoveX - launchInfo.dims * 0.5 + 25 }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray5, 0.1, { attr: { x2: rayMoveX - launchInfo.dims * 0.5 + 25 }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray6, 0.1, { attr: { x2: rayMoveX - 10                         }, ease: Power2.easeInOut }, 1 );
-        timeline.to( ray7, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65       }, ease: Power2.easeInOut }, 1 );
+      if (side === 'left') {
+        timeline.to(ray0, 0.1, { attr: { x2: rayMoveX + 85 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray1, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray2, 0.1, { attr: { x2: rayMoveX + 85 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray3, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray4, 0.1, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 45 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray5, 0.1, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 45 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray6, 0.1, { attr: { x2: rayMoveX + 85 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray7, 0.1, { attr: { x2: rayMoveX + launchInfo.dims + 10 }, ease: Power2.easeInOut }, 1);
+      } else if (side === 'right') {
+        timeline.to(ray0, 0.1, { attr: { x2: rayMoveX - 10 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray1, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray2, 0.1, { attr: { x2: rayMoveX - 10 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray3, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray4, 0.1, { attr: { x2: rayMoveX - launchInfo.dims * 0.5 + 25 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray5, 0.1, { attr: { x2: rayMoveX - launchInfo.dims * 0.5 + 25 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray6, 0.1, { attr: { x2: rayMoveX - 10 }, ease: Power2.easeInOut }, 1);
+        timeline.to(ray7, 0.1, { attr: { x2: rayMoveX - launchInfo.dims + 65 }, ease: Power2.easeInOut }, 1);
       }
 
 
       // Expand Beam to Bucket
-      if ( side === 'left' ) {
-        timeline.to( focusBeam, 0.5, { css: { width: "234px", height: "234px" }, ease: Power2.easeInOut }, 1.1);
-      } else if ( side === 'right' ) {
-        timeline.to( focusBeam, 0.5, { css: { x: beamMoveX - 242 + "px", width: "234px", height: "234px" }, ease: Power2.easeInOut }, 1.1);
+      if (side === 'left') {
+        timeline.to(focusBeam, 0.5, { css: { width: "234px", height: "234px" }, ease: Power2.easeInOut }, 1.1);
+      } else if (side === 'right') {
+        timeline.to(focusBeam, 0.5, { css: { x: beamMoveX - 242 + "px", width: "234px", height: "234px" }, ease: Power2.easeInOut }, 1.1);
       }
-      
+
 
       // Expand Beam Rays to Bucket
-      if ( side === 'left' ) {
+      if (side === 'left') {
         // ray0 stays
-        timeline.to( ray1, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray2, 0.5, { attr: { y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray3, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 167 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 167, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray6, 0.5, { attr: { y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1 );
-        timeline.to( ray7, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242, y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1 );
-      } else if ( side === 'right' ) {
-          timeline.to( ray0, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318 }, ease: Power2.easeInOut }, 1.1 );
-          // ray1 stays
-          timeline.to( ray2, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-          timeline.to( ray3, 0.5, { attr: { y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-          timeline.to( ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 - 163 }, ease: Power2.easeInOut }, 1.1 );
-          timeline.to( ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 - 163, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1 );
-          timeline.to( ray6, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318, y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1 );
-          timeline.to( ray7, 0.5, { attr: { y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1 );
+        timeline.to(ray1, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray2, 0.5, { attr: { y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray3, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 167 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 + 167, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray6, 0.5, { attr: { y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray7, 0.5, { attr: { x2: rayMoveX + launchInfo.dims + 242, y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1);
+      } else if (side === 'right') {
+        timeline.to(ray0, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318 }, ease: Power2.easeInOut }, 1.1);
+        // ray1 stays
+        timeline.to(ray2, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray3, 0.5, { attr: { y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray4, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 - 163 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray5, 0.5, { attr: { x2: rayMoveX + launchInfo.dims * 0.5 - 163, y2: rayMoveY + launchInfo.dims + 159 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray6, 0.5, { attr: { x2: rayMoveX + launchInfo.dims - 318, y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1);
+        timeline.to(ray7, 0.5, { attr: { y2: rayMoveY + launchInfo.dims * 0.5 + 80 }, ease: Power2.easeInOut }, 1.1);
       }
-      
+
       // Return Beam to Ghost
       if (side === "left") {
-        timeline.to( focusBeam, 0.5, { css: { x: "-100", y: "15", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeOut }, 1.6 );
-      } else if (side === "right") { 
-        timeline.to( focusBeam, 0.5, { css: { x: "100", y: "15", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeOut }, 1.6 );
+        timeline.to(focusBeam, 0.5, { css: { x: "-100", y: "15", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeOut }, 1.6);
+      } else if (side === "right") {
+        timeline.to(focusBeam, 0.5, { css: { x: "100", y: "15", width: ".05em", height: ".05em", borderColor: "none", backgroundColor: "none" }, ease: Power2.easeOut }, 1.6);
       }
 
       // Return Beam Rays to Ghost
-      timeline.to( ray0, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray1, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray2, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray3, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray4, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray5, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray6, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
-      timeline.to( ray7, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6 );
+      timeline.to(ray0, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray1, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray2, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray3, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray4, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray5, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray6, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
+      timeline.to(ray7, .5, { attr: { x2: rayOriginX, y2: rayOriginY }, ease: Power2.easeOut }, 1.6);
 
       // timeline.to( ray0, 0, { css: { opacity: 0 } }, 2.1 );
       // timeline.to( ray1, 0, { css: { opacity: 0 } }, 2.1 );
@@ -1116,9 +1099,9 @@ function removeStoredPriority(cb, payload) {
   // Hide Open Stored Tab
   storedFocus
     ? TweenMax.to(storedFocus, 0.2, {
-        css: { scaleY: 0, transformOrigin: "50% 0" },
-        ease: Linear.easeNone
-      })
+      css: { scaleY: 0, transformOrigin: "50% 0" },
+      ease: Linear.easeNone
+    })
     : null;
 
   // Remove Button Glow
@@ -1190,128 +1173,128 @@ function getDamageIcon(type) {
 
 // ------- Beam Rays -------
 
-  export function moveRaysTo( rayGroupId, targetElement, shape, duration, ease ) {
+export function moveRaysTo(rayGroupId, targetElement, shape, duration, ease) {
 
-    const targetCoordsArray = getRayTargetCoords( targetElement, shape );
-    const origin = getBeamOrigin( document.querySelector( "#beamSVG" ) );
-    const rayElementIds = getRayGroup( rayGroupId );
+  const targetCoordsArray = getRayTargetCoords(targetElement, shape);
+  const origin = getBeamOrigin(document.querySelector("#beamSVG"));
+  const rayElementIds = getRayGroup(rayGroupId);
 
-    animateRaysTo( rayElementIds, targetCoordsArray, origin, duration, ease );
+  animateRaysTo(rayElementIds, targetCoordsArray, origin, duration, ease);
 
+}
+
+function animateRaysTo(rayElementIds, targetCoordsArray, origin, duration, ease) {
+
+  const ray0 = document.querySelector(rayElementIds[0]);
+  const ray1 = document.querySelector(rayElementIds[1]);
+  const ray2 = document.querySelector(rayElementIds[2]);
+  const ray3 = document.querySelector(rayElementIds[3]);
+  const ray4 = document.querySelector(rayElementIds[4]);
+  const ray5 = document.querySelector(rayElementIds[5]);
+  const ray6 = document.querySelector(rayElementIds[6]);
+  const ray7 = document.querySelector(rayElementIds[7]);
+
+  let timeline = new TimelineMax();
+
+  // Set Beam Ray Positions
+  timeline.to(ray0, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[0][0], y2: targetCoordsArray[0][1] }, ease }, 0);
+  timeline.to(ray1, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[1][0], y2: targetCoordsArray[1][1] }, ease }, 0);
+  timeline.to(ray2, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[2][0], y2: targetCoordsArray[2][1] }, ease }, 0);
+  timeline.to(ray3, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[3][0], y2: targetCoordsArray[3][1] }, ease }, 0);
+  timeline.to(ray4, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[4][0], y2: targetCoordsArray[4][1] }, ease }, 0);
+  timeline.to(ray5, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[5][0], y2: targetCoordsArray[5][1] }, ease }, 0);
+  timeline.to(ray6, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[6][0], y2: targetCoordsArray[6][1] }, ease }, 0);
+  timeline.to(ray7, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[7][0], y2: targetCoordsArray[7][1] }, ease }, 0);
+
+}
+
+function getRayGroup(rayGroupId) {
+
+  let rayElementIds = [];
+  if (rayGroupId === 1) {
+    rayElementIds = ["#beamRay0", "#beamRay1", "#beamRay2", "#beamRay3", "#beamRay4", "#beamRay5", "#beamRay6", "#beamRay7"];
+  } else if (rayGroupId === 2) {
+    rayElementIds = ["#beamRay8", "#beamRay9", "#beamRay10", "#beamRay11", "#beamRay12", "#beamRay13", "#beamRay14", "#beamRay15"];
+  } else if (rayGroupId === 3) {
+    rayElementIds = ["#beamRay16", "#beamRay17", "#beamRay18", "#beamRay19", "#beamRay20", "#beamRay21", "#beamRay22", "#beamRay23"];
   }
 
-  function animateRaysTo( rayElementIds, targetCoordsArray, origin, duration, ease ) {
+  return rayElementIds;
 
-    const ray0 = document.querySelector( rayElementIds[0] );
-    const ray1 = document.querySelector( rayElementIds[1] );
-    const ray2 = document.querySelector( rayElementIds[2] );
-    const ray3 = document.querySelector( rayElementIds[3] );
-    const ray4 = document.querySelector( rayElementIds[4] );
-    const ray5 = document.querySelector( rayElementIds[5] );
-    const ray6 = document.querySelector( rayElementIds[6] );
-    const ray7 = document.querySelector( rayElementIds[7] );
+}
 
-    let timeline = new TimelineMax();
+function getRayTargetCoords(targetElement, shape) {
 
-    // Set Beam Ray Positions
-    timeline.to( ray0, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[0][0], y2: targetCoordsArray[0][1] }, ease }, 0 );
-    timeline.to( ray1, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[1][0], y2: targetCoordsArray[1][1] }, ease }, 0 );
-    timeline.to( ray2, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[2][0], y2: targetCoordsArray[2][1] }, ease }, 0 );
-    timeline.to( ray3, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[3][0], y2: targetCoordsArray[3][1] }, ease }, 0 );
-    timeline.to( ray4, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[4][0], y2: targetCoordsArray[4][1] }, ease }, 0 );
-    timeline.to( ray5, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[5][0], y2: targetCoordsArray[5][1] }, ease }, 0 );
-    timeline.to( ray6, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[6][0], y2: targetCoordsArray[6][1] }, ease }, 0 );
-    timeline.to( ray7, duration, { attr: { x1: origin[0], y1: origin[1], x2: targetCoordsArray[7][0], y2: targetCoordsArray[7][1] }, ease }, 0 );
+  const targetRect = targetElement.getBoundingClientRect();
 
+  const beamAngleType = getBeamAngleType(targetElement.className);
+  const outerBeamCoords = getOuterBeamCoords(targetRect, beamAngleType);
+  const offsetBeamCoords = getOffsetBeamCoords(targetRect, shape);
+
+  const targetCoordsArray = outerBeamCoords.concat(offsetBeamCoords);
+
+  return targetCoordsArray;
+
+}
+
+function getOffsetBeamCoords(rect, shape) {
+
+  switch (shape) {
+    case "square":
+      return getSquareOffsetCoords(rect)
+    case "tall":
+      return getTallOffsetCoords(rect);
+    case "wide":
+      return getWideOffsetCoords(rect);
+    default:
+      console.log("Unknown Shape:");
+      console.log(shape);
   }
 
-  function getRayGroup( rayGroupId ) {
+}
 
-    let rayElementIds = [];
-    if ( rayGroupId === 1 ) {
-      rayElementIds = [ "#beamRay0", "#beamRay1", "#beamRay2", "#beamRay3", "#beamRay4", "#beamRay5", "#beamRay6", "#beamRay7" ];
-    } else if ( rayGroupId === 2 ) {
-      rayElementIds = [ "#beamRay8", "#beamRay9", "#beamRay10", "#beamRay11", "#beamRay12", "#beamRay13", "#beamRay14", "#beamRay15" ];
-    } else if ( rayGroupId === 3 ) {
-      rayElementIds = [ "#beamRay16", "#beamRay17", "#beamRay18", "#beamRay19", "#beamRay20", "#beamRay21", "#beamRay22", "#beamRay23" ];
-    }
+function getSquareOffsetCoords(rect) {
 
-    return rayElementIds;
+  const shift = svgWindowDifference();
 
-  }
+  const xOffset = rect.x + rect.width * .5 + shift;
+  const yOffset = rect.y + rect.height * .5;
 
-  function getRayTargetCoords( targetElement, shape ) {
+  const midTop = [xOffset, rect.y];
+  const midBottom = [xOffset, rect.y + rect.height];
+  const midLeft = [rect.x + shift, yOffset];
+  const midRight = [rect.right + shift, yOffset];
 
-    const targetRect = targetElement.getBoundingClientRect();
+  return [midTop, midBottom, midLeft, midRight];
 
-    const beamAngleType = getBeamAngleType( targetElement.className );
-    const outerBeamCoords = getOuterBeamCoords( targetRect, beamAngleType );
-    const offsetBeamCoords = getOffsetBeamCoords( targetRect, shape );
-                                          
-    const targetCoordsArray = outerBeamCoords.concat( offsetBeamCoords );
+}
 
-    return targetCoordsArray;
+function getTallOffsetCoords(rect) {
 
-  }
+  const shift = svgWindowDifference();
 
-  function getOffsetBeamCoords( rect, shape ) {
+  const oneThirdLeft = [rect.x + shift, rect.y + rect.height * .25];
+  const twoThirdLeft = [rect.x + shift, rect.y + rect.height * .58];
+  const oneThirdRight = [rect.right + shift, rect.y + rect.height * .41];
+  const twoThirdRight = [rect.right + shift, rect.y + rect.height * .74];
 
-        switch( shape ) {
-          case "square":
-            return getSquareOffsetCoords( rect )
-          case "tall":
-            return getTallOffsetCoords( rect );
-          case "wide":
-            return getWideOffsetCoords( rect );
-          default:
-            console.log("Unknown Shape:");
-            console.log( shape );
-        }
+  return [oneThirdLeft, twoThirdLeft, oneThirdRight, twoThirdRight];
 
-  }
+}
 
-  function getSquareOffsetCoords( rect ) {
+function getWideOffsetCoords(rect) {
 
-      const shift = svgWindowDifference();
+  const shift = svgWindowDifference();
+  const xShift = rect.x + shift;
 
-      const xOffset = rect.x + rect.width * .5 + shift;
-      const yOffset = rect.y + rect.height * .5;
+  const oneThirdTop = [xShift + rect.width * .25, rect.y];
+  const twoThirdTop = [xShift + rect.width * .58, rect.y];
+  const oneThirdBottom = [xShift + rect.width * .41, rect.bottom];
+  const twoThirdBottom = [xShift + rect.width * .74, rect.bottom];
 
-      const midTop = [ xOffset, rect.y ];
-      const midBottom = [ xOffset, rect.y + rect.height ];
-      const midLeft = [ rect.x + shift, yOffset ];
-      const midRight = [ rect.right + shift, yOffset ]; 
+  return [oneThirdTop, twoThirdTop, oneThirdBottom, twoThirdBottom];
 
-      return [ midTop, midBottom, midLeft, midRight ];
-    
-    }
-
-    function getTallOffsetCoords( rect ) {
-
-      const shift = svgWindowDifference();
-
-      const oneThirdLeft = [ rect.x + shift, rect.y + rect.height * .25 ];
-      const twoThirdLeft = [ rect.x + shift, rect.y + rect.height * .58 ];
-      const oneThirdRight = [ rect.right + shift, rect.y + rect.height * .41 ];
-      const twoThirdRight = [ rect.right + shift, rect.y + rect.height * .74 ];
-
-      return [ oneThirdLeft, twoThirdLeft, oneThirdRight, twoThirdRight ];
-
-    }
-
-    function getWideOffsetCoords( rect ) {
-
-      const shift = svgWindowDifference();
-      const xShift = rect.x + shift;
-
-      const oneThirdTop = [ xShift + rect.width * .25, rect.y ];
-      const twoThirdTop = [ xShift + rect.width * .58, rect.y ];
-      const oneThirdBottom = [ xShift + rect.width * .41, rect.bottom ];
-      const twoThirdBottom = [ xShift + rect.width * .74, rect.bottom ];
-
-      return [ oneThirdTop, twoThirdTop, oneThirdBottom, twoThirdBottom ];
-
-    }
+}
 
 // -------------------------
 
@@ -1362,7 +1345,7 @@ export function getRandomBeamAttributes(num) {
     // beamAttributes.strokeWidth[i] = Math.floor(Math.random() * 3) + 1;
     beamAttributes.strokeWidth[i] = 1;
     beamAttributes.strokeDash[i] = Math.floor(Math.random() * 70) + 50;
-    beamAttributes.strokeDashOffset[i] = Math.floor(Math.random()*2000) + 1200;
+    beamAttributes.strokeDashOffset[i] = Math.floor(Math.random() * 2000) + 1200;
   }
 
   return beamAttributes;
@@ -1385,17 +1368,17 @@ export function getRandomBeamAttributes(num) {
 
 // }
 
-export function buildBeam( targetEl, side ) {
+export function buildBeam(targetEl, side) {
 
-  const angleType = getBeamAngleType( targetEl.className );
-  const outerCoords = getOuterBeamCoords( targetEl.getBoundingClientRect(), angleType );
+  const angleType = getBeamAngleType(targetEl.className);
+  const outerCoords = getOuterBeamCoords(targetEl.getBoundingClientRect(), angleType);
   let beamPath;
 
-  if ( side === "front" ) {
-    beamPath = getSquareBeamPath( outerCoords );
+  if (side === "front") {
+    beamPath = getSquareBeamPath(outerCoords);
   } else {
-    const origin = getBeamOrigin( document.querySelector( "#beamSVG" ), side );
-    beamPath = getBeamPath( origin, outerCoords );
+    const origin = getBeamOrigin(document.querySelector("#beamSVG"), side);
+    beamPath = getBeamPath(origin, outerCoords);
   }
   // const origin = getBeamOrigin( document.querySelector( "#beamSVG" ), side );
   // beamPath = getBeamPath( origin, outerCoords );
@@ -1404,12 +1387,12 @@ export function buildBeam( targetEl, side ) {
 
 }
 
-function getSquareBeamPath( outerCoords ) {
+function getSquareBeamPath(outerCoords) {
 
-  const point1 = `M${ outerCoords[0][0] } ${ outerCoords[0][1] } `;
-  const point2 = `L${ outerCoords[1][0] } ${ outerCoords[1][1] } `;
-  const point3 = `L${ outerCoords[2][0] } ${ outerCoords[2][1] } `;
-  const point4 = `L${ outerCoords[3][0] } ${ outerCoords[3][1] } Z`;
+  const point1 = `M${outerCoords[0][0]} ${outerCoords[0][1]} `;
+  const point2 = `L${outerCoords[1][0]} ${outerCoords[1][1]} `;
+  const point3 = `L${outerCoords[2][0]} ${outerCoords[2][1]} `;
+  const point4 = `L${outerCoords[3][0]} ${outerCoords[3][1]} Z`;
 
   const path = point1 + point2 + point3 + point4;
 
@@ -1418,18 +1401,18 @@ function getSquareBeamPath( outerCoords ) {
 }
 
 // Returns an SVG Path string
-function getBeamPath( origin, outerCoords ) {
+function getBeamPath(origin, outerCoords) {
 
-  const point1 = `M${ origin[0] } ${ origin[1] } `;
-  const point2 = `L${ outerCoords[0][0] } ${ outerCoords[0][1] } `;
-  const point3 = `L${ outerCoords[1][0] } ${ outerCoords[1][1] } `;
+  const point1 = `M${origin[0]} ${origin[1]} `;
+  const point2 = `L${outerCoords[0][0]} ${outerCoords[0][1]} `;
+  const point3 = `L${outerCoords[1][0]} ${outerCoords[1][1]} `;
   let point4;
-  if ( outerCoords.length === 4 ) {
-    point4 = `L${ outerCoords[2][0] } ${ outerCoords[2][1] } L${ outerCoords[3][0] } ${ outerCoords[3][1] } Z` ;
+  if (outerCoords.length === 4) {
+    point4 = `L${outerCoords[2][0]} ${outerCoords[2][1]} L${outerCoords[3][0]} ${outerCoords[3][1]} Z`;
   } else {
-    point4 =`L${ outerCoords[2][0] } ${ outerCoords[2][1] } Z`;
+    point4 = `L${outerCoords[2][0]} ${outerCoords[2][1]} Z`;
   }
-  
+
   const path = point1 + point2 + point3 + point4;
 
   return path;
@@ -1437,22 +1420,22 @@ function getBeamPath( origin, outerCoords ) {
 }
 
 // Returns the [ x, y ] origin for the beam path
-function getBeamOrigin( beamSVG, side ) {
+function getBeamOrigin(beamSVG, side) {
 
   const svgRect = beamSVG.getBoundingClientRect();
   let shift = svgWindowDifference();
 
-  if ( side === "left" ) {
+  if (side === "left") {
     shift = shift - 100;
-    return [ svgRect.x + shift + svgRect.width * .5, svgRect.y + 15 + svgRect.height * .5 ];
+    return [svgRect.x + shift + svgRect.width * .5, svgRect.y + 15 + svgRect.height * .5];
   }
-  else if ( side === "right" ) {
+  else if (side === "right") {
     shift = shift + 100;
-    return [ svgRect.x + shift + svgRect.width * .5, svgRect.y + 15 + svgRect.height * .5 ];
-  } else if ( side === "up" ) {
-    return [ svgRect.x + shift + svgRect.width * .5, svgRect.y + svgRect.height * .5 ];
+    return [svgRect.x + shift + svgRect.width * .5, svgRect.y + 15 + svgRect.height * .5];
+  } else if (side === "up") {
+    return [svgRect.x + shift + svgRect.width * .5, svgRect.y + svgRect.height * .5];
   } else {
-    return [ svgRect.x + shift + svgRect.width * .5, svgRect.y + svgRect.height * .5 ];
+    return [svgRect.x + shift + svgRect.width * .5, svgRect.y + svgRect.height * .5];
   }
 
   // return [ svgRect.x + shift + svgRect.width * .5, svgRect.y + svgRect.height * .5 ];
@@ -1461,67 +1444,67 @@ function getBeamOrigin( beamSVG, side ) {
 
 // Returns the 3 points of contact for the 
 // beam path as an array of [ x, y ] Coords
-function getOuterBeamCoords( rect, angleCase ) {
-// console.log('AngleCase: ' + angleCase );
-  switch( angleCase ) {
+function getOuterBeamCoords(rect, angleCase) {
+  // console.log('AngleCase: ' + angleCase );
+  switch (angleCase) {
 
     case 1:
       // console.log('Returns 1');
-      return [ getCorner( rect, 3 ), 
-               getCorner( rect, 1 ), 
-               getCorner( rect, 2 ) ];
+      return [getCorner(rect, 3),
+      getCorner(rect, 1),
+      getCorner(rect, 2)];
     case 2:
       // console.log('Returns 2');
-      return [ getCorner( rect, 4 ), 
-               getCorner( rect, 2 ), 
-               getCorner( rect, 1 ) ];
+      return [getCorner(rect, 4),
+      getCorner(rect, 2),
+      getCorner(rect, 1)];
     case 3:
       // console.log('Returns 3');
-      return [ getCorner( rect, 4 ), 
-               getCorner( rect, 3 ), 
-               getCorner( rect, 1 ) ];
+      return [getCorner(rect, 4),
+      getCorner(rect, 3),
+      getCorner(rect, 1)];
     case 4:
       // console.log('Returns 4');
-      return [ getCorner( rect, 3 ), 
-               getCorner( rect, 4 ), 
-               getCorner( rect, 2 ) ];
+      return [getCorner(rect, 3),
+      getCorner(rect, 4),
+      getCorner(rect, 2)];
     case 5:
       // console.log('Returns 5');
-      return [ getCorner( rect, 3 ),
-               getCorner( rect, 1 ),
-               getCorner( rect, 2 ),
-               getCorner( rect, 4 ) ];
+      return [getCorner(rect, 3),
+      getCorner(rect, 1),
+      getCorner(rect, 2),
+      getCorner(rect, 4)];
     case 6:
       // console.log('Returns 6');
-      return [ getCorner( rect, 1 ),
-               getCorner( rect, 3 ),
-               getCorner( rect, 4 ),
-               getCorner( rect, 2 ) ];
+      return [getCorner(rect, 1),
+      getCorner(rect, 3),
+      getCorner(rect, 4),
+      getCorner(rect, 2)];
     case 7:
       // console.log('Returns 7');
-      return [ getCorner( rect, 3 ),
-               getCorner( rect, 1 ),
-               getCorner( rect, 2 ),
-               getCorner( rect, 2 ) ];
+      return [getCorner(rect, 3),
+      getCorner(rect, 1),
+      getCorner(rect, 2),
+      getCorner(rect, 2)];
     case 8:
       // console.log('Returns 8');
-      return [ getCorner( rect, 2 ),
-               getCorner( rect, 1 ),
-               getCorner( rect, 3 ),
-               getCorner( rect, 4 ) ];           
+      return [getCorner(rect, 2),
+      getCorner(rect, 1),
+      getCorner(rect, 3),
+      getCorner(rect, 4)];
     case 9:
       // console.log('Returns 9');
-      return [ getCorner( rect, 1 ),
-               getCorner( rect, 2 ),
-               getCorner( rect, 4 ),
-               getCorner( rect, 3 ) ]; 
+      return [getCorner(rect, 1),
+      getCorner(rect, 2),
+      getCorner(rect, 4),
+      getCorner(rect, 3)];
     case 10:
       // console.log('Returns 10');
-      return [ getCorner( rect, 4 ),
-               getCorner( rect, 2 ),
-               getCorner( rect, 1 ),
-               getCorner( rect, 3 ) ]; 
-   default:
+      return [getCorner(rect, 4),
+      getCorner(rect, 2),
+      getCorner(rect, 1),
+      getCorner(rect, 3)];
+    default:
       console.log("Unknown AngleCase");
 
   }
@@ -1530,8 +1513,8 @@ function getOuterBeamCoords( rect, angleCase ) {
 
 function svgWindowDifference() {
 
-  const window = document.querySelector( ".background" );
-  const svg = document.querySelector( "#beamSVG" );
+  const window = document.querySelector(".background");
+  const svg = document.querySelector("#beamSVG");
 
   const windowRect = window.getBoundingClientRect();
   const svgRect = svg.getBoundingClientRect();
@@ -1542,20 +1525,20 @@ function svgWindowDifference() {
 }
 
 // Returns the [ x, y ] coord of which corner to use
-function getCorner( rect, num ) {
-// console.log('Corner')
-// console.log('Case ' + num );
+function getCorner(rect, num) {
+  // console.log('Corner')
+  // console.log('Case ' + num );
   const shift = svgWindowDifference();
 
-  switch( num ) {
+  switch (num) {
     case 1:
-      return [ rect.x + shift, rect.y ];
+      return [rect.x + shift, rect.y];
     case 2:
-      return [ rect.right + shift, rect.y ];
+      return [rect.right + shift, rect.y];
     case 3:
-      return [ rect.x + shift, rect.bottom ];
+      return [rect.x + shift, rect.bottom];
     case 4:
-      return [ rect.right + shift, rect.bottom ];
+      return [rect.right + shift, rect.bottom];
     default:
       console.log("Unknown Corner Number");
   }
@@ -1563,126 +1546,126 @@ function getCorner( rect, num ) {
 }
 
 // Returns the case number of which angle to use
-function getBeamAngleType( elClassName ) {
+function getBeamAngleType(elClassName) {
 
   // console.log("Class Name:");
   // console.log(elClassName);
 
   let num;
-  if ( elClassName === 'beamTarget' ) {
+  if (elClassName === 'beamTarget') {
     num = 1
-  } else if ( elClassName === 'scan_focus_target' ) {
+  } else if (elClassName === 'scan_focus_target') {
     num = 1;
-  } else if ( elClassName === 'scan_focus_target_right' ) {
+  } else if (elClassName === 'scan_focus_target_right') {
     num = 2;
-  } else if ( elClassName === 'scanner_bucket_right' ) {
+  } else if (elClassName === 'scanner_bucket_right') {
     num = 1
-  } else if ( elClassName === 'scanner_bucket' ) {
+  } else if (elClassName === 'scanner_bucket') {
     num = 2
-  } else if ( elClassName === 'scan_beam_thin_target' ) {
+  } else if (elClassName === 'scan_beam_thin_target') {
     num = 1
-  } else if ( elClassName === 'scan_beam_thin_target_right' ) {
+  } else if (elClassName === 'scan_beam_thin_target_right') {
     num = 2
-  } else if ( elClassName === 'slot left1 ' ) {
-     num = 1;
-  } else if ( elClassName === 'slot left2 ' ) {
-     num = 1;
-  } else if ( elClassName === 'slot left6 ' ) {
-     num = 1;
-  } else if ( elClassName === 'slot right1 ' ) {
-     num = 2;
-  } else if ( elClassName === 'slot right2 ' ) {
-     num = 2;
-  } else if ( elClassName === 'slot right3 ' ) {
-     num = 2;
-  } else if ( elClassName === 'slot right8 ' ) {
-     num = 2;
-  } else if ( elClassName === 'slot left3 ' ) {
+  } else if (elClassName === 'slot left1 ') {
+    num = 1;
+  } else if (elClassName === 'slot left2 ') {
+    num = 1;
+  } else if (elClassName === 'slot left6 ') {
+    num = 1;
+  } else if (elClassName === 'slot right1 ') {
+    num = 2;
+  } else if (elClassName === 'slot right2 ') {
+    num = 2;
+  } else if (elClassName === 'slot right3 ') {
+    num = 2;
+  } else if (elClassName === 'slot right8 ') {
+    num = 2;
+  } else if (elClassName === 'slot left3 ') {
     num = 3;
-  } else if ( elClassName === 'slot left4 ' ) {
-     num = 3;
-  } else if ( elClassName === 'slot left7 ' ) {
-     num = 3;
-  } else if ( elClassName === 'slot right4 ' ) {
-     num = 4;
-  } else if ( elClassName === 'slot right5 ' ) {
-     num = 4;
-  } else if ( elClassName === 'slot right6 ' ) {
-     num = 4;
-  } else if ( elClassName === 'slot right9 ' ) {
-     num = 4;
-  } else if ( elClassName === 'app_name_text' ) {
+  } else if (elClassName === 'slot left4 ') {
+    num = 3;
+  } else if (elClassName === 'slot left7 ') {
+    num = 3;
+  } else if (elClassName === 'slot right4 ') {
+    num = 4;
+  } else if (elClassName === 'slot right5 ') {
+    num = 4;
+  } else if (elClassName === 'slot right6 ') {
+    num = 4;
+  } else if (elClassName === 'slot right9 ') {
+    num = 4;
+  } else if (elClassName === 'app_name_text') {
     num = 5;
- } else if ( elClassName === 'left_title_target' ) {
-  num = 7; 
- } else if ( elClassName === 'right_title_target' ) {
-  num = 5;
- } else if ( elClassName === 'left_desc_target' ) {
-  num = 5;
- } else if ( elClassName === 'right_desc_target' ) {
-  num = 5;
- } else if ( elClassName === 'app_desc_text' ) {
-  num = 5;
- } else if ( elClassName === 'beamTargetFull' ) {
-  num = 5;
- } else if ( elClassName === 'beamTargetFullLeft' ) {
-   num = 10;
- } else if ( elClassName === 'title_beam_target_wrap') {
-   num = 5;
- } else if ( elClassName === 'desc_beam_target_wrap') {
-  num = 5;
- } else if ( elClassName === 'char_back') {
-  num = 5;
- } else if ( elClassName === 'interface') {
-  num = 5;
- } else if ( elClassName === 'scanner_emblem') {
-  num = 5;
- } else if ( elClassName === 'scanner_emblem_left') {
-  num = 8;
- } else if ( elClassName === 'scanner_emblem_right') {
-  num = 9;
- } else if ( elClassName === 'scanner_emblem_container') {
-  num = 8;
- } else if ( elClassName === 'scanner_emblem_container_left') {
-  num = 8;
- } else if ( elClassName === 'scanner_emblem_container_right') {
-  num = 9;
- } else if ( elClassName === 'scanner_char_back') {
-  num = 8;
- } else if ( elClassName === 'scanner_char_back_left') {
-  num = 8;
- } else if ( elClassName === 'scanner_char_back_right') {
-  num = 9;
- } else if ( elClassName === 'scanner_char_back_left_up') {
-  num = 8;
- } else if ( elClassName === 'scanner_char_back_right_up') {
-  num = 9;
- } else if ( elClassName === 'scanner_interface') {
-  num = 8;
- } else if ( elClassName === 'scanner_bar_launch_left') {
-  num = 8;
- } else if ( elClassName === 'scanner_bar_launch_right') {
-  num = 9;
- } else if ( elClassName === 'scanner') {
-  num = 8;
- } else if ( elClassName === 'scanner_left_slots') {
-  num = 8;
- } else if ( elClassName === 'scanner_left_slots_thin') {
-  num = 8;
- } else if ( elClassName === 'scanner_left_slots_back') {
-  num = 8;
- } else if ( elClassName === 'scanner_left_slots_back_thin') {
-  num = 8;
- } else if ( elClassName === 'scanner_right_slots') {
-  num = 9;
- } else if ( elClassName === 'scanner_right_slots_thin') {
-  num = 9;
- } else if ( elClassName === 'scanner_right_slots_back') {
-  num = 9;
- } else if ( elClassName === 'scanner_right_slots_back_thin') {
-  num = 9;
- } else {
-     console.log("Unknown Beam Angle Class");
+  } else if (elClassName === 'left_title_target') {
+    num = 7;
+  } else if (elClassName === 'right_title_target') {
+    num = 5;
+  } else if (elClassName === 'left_desc_target') {
+    num = 5;
+  } else if (elClassName === 'right_desc_target') {
+    num = 5;
+  } else if (elClassName === 'app_desc_text') {
+    num = 5;
+  } else if (elClassName === 'beamTargetFull') {
+    num = 5;
+  } else if (elClassName === 'beamTargetFullLeft') {
+    num = 10;
+  } else if (elClassName === 'title_beam_target_wrap') {
+    num = 5;
+  } else if (elClassName === 'desc_beam_target_wrap') {
+    num = 5;
+  } else if (elClassName === 'char_back') {
+    num = 5;
+  } else if (elClassName === 'interface') {
+    num = 5;
+  } else if (elClassName === 'scanner_emblem') {
+    num = 5;
+  } else if (elClassName === 'scanner_emblem_left') {
+    num = 8;
+  } else if (elClassName === 'scanner_emblem_right') {
+    num = 9;
+  } else if (elClassName === 'scanner_emblem_container') {
+    num = 8;
+  } else if (elClassName === 'scanner_emblem_container_left') {
+    num = 8;
+  } else if (elClassName === 'scanner_emblem_container_right') {
+    num = 9;
+  } else if (elClassName === 'scanner_char_back') {
+    num = 8;
+  } else if (elClassName === 'scanner_char_back_left') {
+    num = 8;
+  } else if (elClassName === 'scanner_char_back_right') {
+    num = 9;
+  } else if (elClassName === 'scanner_char_back_left_up') {
+    num = 8;
+  } else if (elClassName === 'scanner_char_back_right_up') {
+    num = 9;
+  } else if (elClassName === 'scanner_interface') {
+    num = 8;
+  } else if (elClassName === 'scanner_bar_launch_left') {
+    num = 8;
+  } else if (elClassName === 'scanner_bar_launch_right') {
+    num = 9;
+  } else if (elClassName === 'scanner') {
+    num = 8;
+  } else if (elClassName === 'scanner_left_slots') {
+    num = 8;
+  } else if (elClassName === 'scanner_left_slots_thin') {
+    num = 8;
+  } else if (elClassName === 'scanner_left_slots_back') {
+    num = 8;
+  } else if (elClassName === 'scanner_left_slots_back_thin') {
+    num = 8;
+  } else if (elClassName === 'scanner_right_slots') {
+    num = 9;
+  } else if (elClassName === 'scanner_right_slots_thin') {
+    num = 9;
+  } else if (elClassName === 'scanner_right_slots_back') {
+    num = 9;
+  } else if (elClassName === 'scanner_right_slots_back_thin') {
+    num = 9;
+  } else {
+    console.log("Unknown Beam Angle Class");
   }
 
   // console.log('NUMBER:');

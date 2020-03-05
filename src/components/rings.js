@@ -696,7 +696,13 @@ class MenuButtons extends React.Component {
         const beamPath4 = buildBeam( rightDescTarget, "up" );
         const beamPath5 = buildBeam( appDesc, "up" );
         const beamPath6 = buildBeam( leftDescTarget, "up" );
-        // const beamPath4 = buildBeam(  )
+
+        // Place Scanner Character Backs for coming launch sequence
+        const scanCharBackLeft = document.querySelector(".scanner_char_back_left");
+        const scanCharBackRight = document.querySelector(".scanner_char_back_right");
+        const scanCharBackLeftUp = document.querySelector(".scanner_char_back_left_up");
+        const scanCharBackRightUp = document.querySelector(".scanner_char_back_right_up");
+        const windowWidth = window.innerWidth;
 
         const ray0 = document.querySelector("#beamRay0");
         const ray1 = document.querySelector("#beamRay1");
@@ -708,6 +714,13 @@ class MenuButtons extends React.Component {
         const ray7 = document.querySelector("#beamRay7");
 
         let timeline = new TimelineMax();
+
+        // transform: matrix(0.75, 0, 0, 0.75, 1440, 328);
+        timeline.set( scanCharBackLeft, { css: { scale: .75, x: windowWidth * -1, y: 328 } }, 0 );
+        timeline.set( scanCharBackRight, { css: { scale: .75, x: windowWidth, y: 328 } }, 0 );
+        timeline.set( scanCharBackLeftUp, { css: { scale: .75, x: windowWidth * -1, y: -35 } }, 0 );
+        timeline.set( scanCharBackRightUp, { css: { scale: .75, x: windowWidth, y: -35 } }, 0 );
+
 
         // Randomize Beam Attributes
         const beamAttrs = getRandomBeamAttributes(8);
