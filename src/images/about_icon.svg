@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 40">
+  <title>about_icon</title>
+  <g style="isolation: isolate">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Button_Backs" data-name="Button Backs">
+        <g>
+          <image width="16" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAoCAYAAAD32nqhAAAACXBIWXMAAAsSAAALEgHS3X78AAABhUlEQVRIS+3Vv0rDUBQG8JPUGkUjROvSwVRw6+aig65iBbHSTd+hUBDci4sP4OAmuGqh7voI4mbxZeJ3yFdMyJ/TKOhi4UeSe8/9enPzT6Iokp8wCyxmgcUssJR3ijhJlQLwc8EDn3TfnSmAg5egBTvUYptbGsDpehzQgyH12OYlT6cowOe/6sBnGrLN/5WA759CYhGXYRN2SfdnXsQaLMI6bECTU5/L1OcMnocAtmAPDiQ+9yb7nLKAOjRgG87hGm7hkiErhQH89wUI4RiuJF79V7iDI1iVsjVIzEAX7QJe4AMe4IR9pQHTS6iz0FN4ggk8QtcMYIheAV39UxjBe9UAl4VdDvwP+IuAvMs44rG21woDJH0jncFY4htpzONQyt4H8nUr64PTl/hOfOO2z3btr2cCJP0wHcIAbuCe2wHbQ9Y5RTNYgzbsQ0fiJ7PD4zb7szNIzEJfGvo6C1jc4DZge+qlkncVpp8yN0fmE5cJqMossJgFFrPAYhZYzAKLWWAxCyyfhNyljn+0Du0AAAAASUVORK5CYII=" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <text transform="translate(2.57 26.84)" style="font-size: 30px;fill: #fff;font-family: PTSerif-Regular, PT Serif">i</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

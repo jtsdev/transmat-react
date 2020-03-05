@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 41 35">
+  <title>refresh_icon</title>
+  <g style="isolation: isolate">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Button_Backs" data-name="Button Backs">
+        <g>
+          <image width="41" height="35" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAjCAYAAAAJ+yOQAAAACXBIWXMAAAsSAAALEgHS3X78AAAEKElEQVRYR8WYyY9NQRTGjzZ10IR+QseGFlOkY8cGG01iimGho4X0xqITw9JfIGwkJNrOFFNEkxgWhoSNICSabvMQFliwwUYM0b5PfdetLu/dup736OSXzru36tR3T9U5daqst7fX/hT89RM1Jfj5PmYnL9EGgTAK6A9qwXBQDwoB9XpXq7Y1fys42kACOdBgMAKMAVPAHLAYLAPLxTI9m6M2Y9RnsASXJTYmrp+MDwMTwGywEmwEu8BRcDLgqN5tVNu5YJI5D1NsTUxUbpGWeo9T2ATWgB3gBLgC7oJH4qFIft9Vm04JbgfzQKO5D+4fExYVaan3GmWcXjkEboMX4DnolpAz4JQ4o2fdavMS3AcXJLYVTP1ToaU8OEzGWmWcgzwIBu0Am0CLpWuyRc86vD6vxB2wH6zzhOaa+lAg1yCnuFEC94EuieOAFyWA09dsLjgaLI3sBj1rVps94BJ4At6AHglt1RgcKxpMoUhOMxc4p3iXBL6W8cPmvDQfTFY7P8346alebearzxFwT0K7ZHue2kWnPfRirYzTC+fNeZACD4I2cwFU8MT95gVLM0KtpUHXJhs9snleY0xWu0xvFvMiv55Tygjl+jusQaaBulLiMsTWqW+bbN2X7Q6NFfWmb5Drg/ks8eJjc4uf09WUCIyJKyI2EdokWxdkO/HmJIusTV8ktzLuFDvNRSLTSPK1hXIEBkILls5St8bYqTGH5xHJRU+3c0vjjsGEfNnclzNao+smQ2Cy5w8xN+2bzeVSjnEMLNUHDLASxYkvkg2Z6zplgImZeY9ppSwvasBB5qZ7NJgO1pub6qfgLFhrLoD4fpTaDvKFFhPJ/feh/q/Q81xJt4jIgeo/Aywwt7VuA9fNJfjr+k2hLE6a1ZZ9BuYVubxckZamtIlgFdgOjoNr5nLvR/2/Ac6Zi/xtajvRvCVWNZGeJ8eBJeaKk6vmEvon8A18Bh8k9qa5JL9UfarvSc/uUHPBxz2bRcozifwuvoC35lLTBnPrts++HhP5V2tStsM8yb38HfhqzpucdqYkerHZiqS7YiIrFt2B0IJEUAx3nPeChct+yyg6fJFVyZOyH1ZXe8EtQYGZ5ZtvpGo7jsbw69TVYKtYbZFCOPzSiu/dgdCk4h8PZonxWQJ/ifQMVKwKyhCanJ3qRPRw5neuSD2ZB431i2j7oHOxypzJl1U1q+usyjzXgOUQigyjkJHXI6E8pzDH8dzin3HGWnprwcKg7JyaS6SE+lG4TkIZ7cmpj3ktPC0uMhcEDRZUMJWg+MM0CsNjLQPppfU9d58GB8AWMNMiBWw5lH7x+wVBu8R2Wt8bDHqWlc1uc0tgpFV4yrNfpumCa445lPc64V0Qr10O2P/wpCc0OfVRbKlbtYX2r9dkhthS95Oj7F9Gdx4sTcQ1HlXLkz8AHq4/OkY6MYIAAAAASUVORK5CYII=" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <g>
+            <path d="M19,28.5a13,13,0,1,1,13-13" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+            <polygon points="32.07 19 35.07 15.5 29.07 15.5 32.07 19" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 202 140">
+  <title>ornaments_block</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2" style="opacity: 0.2">
+      <rect x="1" y="1" width="200" height="138" style="fill: #fcfcfc;stroke: #fff;stroke-miterlimit: 10;stroke-width: 2px;opacity: 0.2"/>
+    </g>
+    <g id="Layer_6" data-name="Layer 6">
+      <path d="M111.92,87.64V80.92H80.84a10.92,10.92,0,0,1-.42-21.84h2.94V52.36H80.42a17.64,17.64,0,1,0,0,35.28h31.5Z" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 2px"/>
+      <path d="M83.36,80.92h6.72V49.84a10.92,10.92,0,0,1,21.84-.42v2.94h6.72V49.42a17.64,17.64,0,1,0-35.28,0v31.5Z" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 2px"/>
+      <path d="M90.08,52.36v6.72h31.08a10.92,10.92,0,0,1,.42,21.84h-2.94v6.72h2.94a17.64,17.64,0,1,0,0-35.28H90.08Z" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 2px"/>
+      <path d="M118.64,59.08h-6.72V90.16a10.92,10.92,0,0,1-21.84.42V87.64H83.36v2.94a17.64,17.64,0,1,0,35.28,0V59.08Z" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 2px"/>
+      <circle cx="101" cy="70" r="53" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+    </g>
+  </g>
+</svg>

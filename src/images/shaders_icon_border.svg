@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 265 265">
+  <title>shaders_icon_border</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <path d="M260,5V260H5V5H260m5-5H0V265H265V0Z" style="fill: #fff"/>
+      <path d="M222.5,38.5v190H42.5V38.5h180m10-10H32.5v210h200V28.5Z" style="fill: #fff"/>
+      <rect x="60" y="48" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="73" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="123" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="98" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="60" y="198" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="48" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="73" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="123" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="98" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="85" y="198" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="48" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="73" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="123" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="98" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="110" y="198" width="20" height="20" style="fill: #fff"/>
+      <rect x="135" y="123" width="20" height="20" style="fill: #fff"/>
+      <polyline points="205 118 135 118 135 48" style="fill: #fff"/>
+      <rect x="135" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="135" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="135" y="198" width="20" height="20" style="fill: #fff"/>
+      <rect x="160" y="123" width="20" height="20" style="fill: #fff"/>
+      <rect x="160" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="160" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="160" y="198" width="20" height="20" style="fill: #fff"/>
+      <rect x="185" y="123" width="20" height="20" style="fill: #fff"/>
+      <rect x="185" y="148" width="20" height="20" style="fill: #fff"/>
+      <rect x="185" y="173" width="20" height="20" style="fill: #fff"/>
+      <rect x="185" y="198" width="20" height="20" style="fill: #fff"/>
+    </g>
+  </g>
+</svg>

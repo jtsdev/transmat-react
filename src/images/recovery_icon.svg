@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103 93.07">
+  <title>recovery_icon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g id="Layer_2-2-2" data-name="Layer 2-2">
+          <g>
+            <polyline points="92.95 33.28 92.99 25.95 50.99 5.03 10.21 25.62 10.17 33.28" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 9px"/>
+            <polyline points="10.04 58.28 9.99 67.12 50.99 88.03 92.78 67.45 92.82 58.28" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 9px"/>
+          </g>
+          <polygon points="93 41.12 83 58.44 103 58.44 93 41.12" style="fill: #fff"/>
+          <polygon points="10 50.44 20 33.12 0 33.12 10 50.44" style="fill: #fff"/>
+          <path d="M51,18.54a28,28,0,1,0,28,28A28,28,0,0,0,51,18.54ZM69.49,49h-16V65h-5V49h-16V44h16V28h5V44h16Z" style="fill: #fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

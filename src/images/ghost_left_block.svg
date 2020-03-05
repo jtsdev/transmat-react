@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <title>ghost_left_block_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Left">
+        <rect x="54.83" y="291.52" width="132.17" height="17.49" style="fill: #394253"/>
+        <polygon points="239 364 187.52 308 204 308 239 364" style="fill: #adbfcb;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="237 237 187 292 204 292 237 237" style="fill: #849eaf;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <rect x="153" y="291.5" width="35" height="16.5" style="fill: #394253"/>
+        <polygon points="200 291.5 188 291.5 188 308 199.82 308.11 200 291.5" style="fill: #324252"/>
+        <polygon points="26.5 277.5 153.5 152.5 236.5 236.5 187.5 291.5 26.5 292.5 26.5 277.5" style="fill: #d4d8db;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="26.5 323 164.5 438.5 236.5 362.5 187.5 308 26.5 308.5 26.5 323" style="fill: #5d686c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M27.15,277.62,42.5,292.25l-16,.13V277.89A.38.38,0,0,1,27.15,277.62Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M27.15,323.13,42.5,308.5l-16-.12v14.48A.38.38,0,0,0,27.15,323.13Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+      </g>
+    </g>
+    <g id="Layer_3" data-name="Layer 3">
+      <rect width="600" height="600" style="fill: none"/>
+    </g>
+  </g>
+</svg>

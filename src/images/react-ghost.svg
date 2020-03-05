@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 544.5 533.5">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="273.75" cy="272.75" r="151" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="275.02" y1="271.81" x2="306.61" y2="271.81" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.16"/>
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.19"/>
+      <stop offset="0.03" stop-color="#6cefff" stop-opacity="0.36"/>
+      <stop offset="0.06" stop-color="#6cefff" stop-opacity="0.51"/>
+      <stop offset="0.09" stop-color="#6cefff" stop-opacity="0.64"/>
+      <stop offset="0.13" stop-color="#6cefff" stop-opacity="0.75"/>
+      <stop offset="0.17" stop-color="#6cefff" stop-opacity="0.85"/>
+      <stop offset="0.22" stop-color="#6cefff" stop-opacity="0.92"/>
+      <stop offset="0.27" stop-color="#6cefff" stop-opacity="0.96"/>
+      <stop offset="0.34" stop-color="#6cefff" stop-opacity="0.99"/>
+      <stop offset="0.52" stop-color="#6cefff"/>
+      <stop offset="0.67" stop-color="#6cefff" stop-opacity="0.99"/>
+      <stop offset="0.74" stop-color="#6cefff" stop-opacity="0.96"/>
+      <stop offset="0.79" stop-color="#6cefff" stop-opacity="0.92"/>
+      <stop offset="0.83" stop-color="#6cefff" stop-opacity="0.85"/>
+      <stop offset="0.86" stop-color="#6cefff" stop-opacity="0.75"/>
+      <stop offset="0.9" stop-color="#6cefff" stop-opacity="0.64"/>
+      <stop offset="0.93" stop-color="#6cefff" stop-opacity="0.51"/>
+      <stop offset="0.95" stop-color="#6cefff" stop-opacity="0.36"/>
+      <stop offset="0.98" stop-color="#6cefff" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#6cefff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="240.75" y1="271.81" x2="272.33" y2="271.81" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient" cx="273.76" cy="271.81" r="8.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.7"/>
+      <stop offset="0.47" stop-color="#6cefff" stop-opacity="0.9"/>
+      <stop offset="0.77" stop-color="#6cefff"/>
+    </radialGradient>
+  </defs>
+  <title>react-ghost</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Ball">
+        <g id="Base">
+          <g style="clip-path: url(#clip-path)">
+            <circle cx="272.75" cy="271.75" r="151" style="fill: #3e474e"/>
+            <ellipse cx="271.25" cy="138.25" rx="76.5" ry="46.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="272.25" cy="138.25" rx="68" ry="41.33" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="143.25" cy="271.25" rx="41.5" ry="76.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="143.79" cy="271.25" rx="36.89" ry="68" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="398.25" cy="272.25" rx="39" ry="76.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="398.76" cy="272.25" rx="34.67" ry="68" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="271.25" cy="401.25" rx="76.5" ry="40.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="272.25" cy="401.25" rx="68" ry="36" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          </g>
+        </g>
+        <g id="Eye">
+          <g id="Base-2" data-name="Base">
+            <circle cx="273.25" cy="272.25" r="76.5" style="fill: #5a606c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <circle cx="274.25" cy="272.25" r="68" style="fill: #777b86;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <circle cx="273.75" cy="271.75" r="62" style="fill: #384b59;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <path d="M333.75,272.52a60,60,0,0,1-120,0c0-33.14,27.49-61,60.63-61S333.75,239.38,333.75,272.52Z" style="fill: #06193a;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.25px"/>
+          </g>
+          <g id="Glow">
+            <polygon id="Right" points="275.02 257.37 289.47 271.81 275.19 286.39 275.19 307.99 279.95 307.99 306.61 277.84 306.61 275.62 306.61 265.17 305.65 264.2 279 235.64 279 235.64 275.19 235.64 275.02 257.37" style="fill: url(#linear-gradient)"/>
+            <polygon id="Left" points="272.33 257.37 257.89 271.81 272.17 286.39 272.17 307.99 267.41 307.99 240.75 277.84 240.75 275.62 240.75 265.17 241.7 264.2 268.36 235.64 268.36 235.64 272.17 235.64 272.33 257.37" style="fill: url(#linear-gradient-2)"/>
+            <circle id="Center" cx="273.76" cy="271.81" r="8.4" style="fill: url(#radial-gradient)"/>
+          </g>
+        </g>
+      </g>
+      <g id="Top">
+        <path d="M277.59,39.77,306.07,11.3a1.75,1.75,0,0,0,.08-2.38l-4.93-5.77a43.12,43.12,0,0,0-3.65-2.9l-56.15.1c-.16,0-3.49,2.18-3.49,2.18a1.8,1.8,0,0,0-.38.29L232.3,8.36a2,2,0,0,0,.13,2.86l33,29A8.88,8.88,0,0,0,277.59,39.77Z" style="fill: #704417;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M242.22.15c-2,0-4.63,3.52-2.5,5.5l26.58,23q4.5,4.5,9,0l23.92-22.5c2.5-2.5-1-6-2-6" style="fill: #ba8130"/>
+        <polygon points="271.43 43.25 232.43 9.25 127.25 124.25 210.25 208.25 272.75 137.75 271.43 43.25" style="fill: #777c7f;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="271.25 43.25 306.5 10.25 405.25 124.25 334.25 208.25 272.75 137.75 271.25 43.25" style="fill: #777c7f;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M265.75,141.75l-55,67,57-46a9.08,9.08,0,0,1,10,0l56,45-54-66C274.75,136.75,270.75,136.75,265.75,141.75Z" style="fill: #8196a9;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+      </g>
+      <g id="Left-2" data-name="Left">
+        <rect x="28.58" y="263.27" width="132.17" height="17.49" style="fill: #394253"/>
+        <polygon points="212.75 335.75 161.27 279.75 177.75 279.75 212.75 335.75" style="fill: #adbfcb;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="210.75 208.75 160.75 263.75 177.75 263.75 210.75 208.75" style="fill: #849eaf;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <rect x="126.75" y="263.25" width="35" height="16.5" style="fill: #394253"/>
+        <polygon points="173.75 263.25 161.75 263.25 161.75 279.75 173.57 279.86 173.75 263.25" style="fill: #324252"/>
+        <polygon points="0.25 249.25 127.25 124.25 210.25 208.25 161.25 263.25 0.25 264.25 0.25 249.25" style="fill: #d4d8db;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="0.25 294.75 138.25 410.25 210.25 334.25 161.25 279.75 0.25 280.25 0.25 294.75" style="fill: #5d686c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M.9,249.37,16.25,264l-16,.13V249.64A.38.38,0,0,1,.9,249.37Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M.9,294.88l15.35-14.63-16-.12v14.48A.38.38,0,0,0,.9,294.88Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+      </g>
+      <g id="Right-2" data-name="Right">
+        <polygon points="334.75 207.75 382.87 263.75 366.75 263.75 334.75 207.75" style="fill: #7190a2;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <g>
+          <rect x="388.75" y="263.27" width="128.05" height="17.49" style="fill: #394253"/>
+          <polygon points="334.25 333.25 382.87 279.75 366.75 279.75 334.25 333.25" style="fill: #a6b8c2;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          <polygon points="544.25 294.75 409.25 410.25 334.25 333.25 381.25 279.75 544.25 280.25 544.25 294.75" style="fill: #5d686c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          <polygon points="544.25 248.75 405.25 124.25 334.25 208.25 381.25 263.25 544.25 263.25 544.25 248.75" style="fill: #d4d8db;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          <polygon points="380.75 279.75 419.75 279.75 419.57 263.25 380.75 263.25 380.75 279.75" style="fill: #394253"/>
+          <rect x="369.75" y="263.25" width="11" height="16.5" style="fill: #324252"/>
+          <path d="M543.6,248.62l-15.35,14.63,16,.13V248.89A.38.38,0,0,0,543.6,248.62Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          <path d="M543.6,294.88l-15.35-14.63,16-.12v14.48A.38.38,0,0,1,543.6,294.88Z" style="fill: #808487;stroke: #000;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        </g>
+      </g>
+      <g id="Bottom">
+        <path d="M265.74,493.73,237.26,522.2a1.75,1.75,0,0,0-.08,2.38l4.93,5.77a43.12,43.12,0,0,0,3.65,2.9l56.15-.1c.16,0,3.49-2.18,3.49-2.18a1.8,1.8,0,0,0,.38-.29l5.25-5.54a2,2,0,0,0-.13-2.86l-33-29A8.88,8.88,0,0,0,265.74,493.73Z" style="fill: #704417;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M301.11,533.35c2,0,4.63-3.52,2.5-5.5l-26.58-23q-4.5-4.5-9,0l-23.92,22.5c-2.5,2.5,1,6,2,6" style="fill: #9e662e"/>
+        <polygon points="271.75 492.25 237.25 524.25 135.25 408.25 210.25 334.25 271.75 389.25 271.75 492.25" style="fill: #777f82;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="271.75 492.25 310.25 524.75 408.25 410.25 334.25 333.25 271.75 389.25 271.75 492.25" style="fill: #777f82;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M278.75,400.38l55-67-57,46a9.08,9.08,0,0,1-10,0l-56-45,54,66C269.75,405.38,273.75,405.38,278.75,400.38Z" style="fill: #b2bdc3;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+      </g>
+    </g>
+  </g>
+</svg>

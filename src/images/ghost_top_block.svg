@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <title>ghost_top_block_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Top">
+        <path d="M303.84,68l28.47-28.47a1.75,1.75,0,0,0,.08-2.38l-4.93-5.77a43.12,43.12,0,0,0-3.65-2.9l-56.15.1c-.16,0-3.49,2.18-3.49,2.18a1.8,1.8,0,0,0-.38.29l-5.25,5.54a2,2,0,0,0,.13,2.86l33,29A8.88,8.88,0,0,0,303.84,68Z" style="fill: #704417;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M268.47,28.4c-2,0-4.63,3.52-2.5,5.5l26.58,23q4.5,4.5,9,0l23.92-22.5c2.5-2.5-1-6-2-6" style="fill: #ba8130"/>
+        <polygon points="297.68 71.5 258.68 37.5 153.5 152.5 236.5 236.5 299 166 297.68 71.5" style="fill: #777c7f;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <polygon points="297.5 71.5 332.75 38.5 431.5 152.5 360.5 236.5 299 166 297.5 71.5" style="fill: #777c7f;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+        <path d="M292,170l-55,67,57-46a9.08,9.08,0,0,1,10,0l56,45-54-66C301,165,297,165,292,170Z" style="fill: #8196a9;stroke: #010101;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+      </g>
+    </g>
+    <g id="Layer_3" data-name="Layer 3">
+      <rect width="600" height="600" style="fill: none"/>
+    </g>
+  </g>
+</svg>

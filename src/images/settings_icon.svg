@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37 36">
+  <title>settings_icon</title>
+  <g style="isolation: isolate">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Button_Backs" data-name="Button Backs">
+        <g>
+          <image width="37" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAkCAYAAAAOwvOmAAAACXBIWXMAAAsSAAALEgHS3X78AAAECUlEQVRYR82YT2xMURTGT6dBG3+CzkJttEiopLFEVKwqQWgbadCF1IKV1MrCwtpCF7XQbYtMakGJNBZ0xQJh0W5aJKg0jdCWqESj1Pi+3u+md6YzfW1jzEh+3uvMu+d+95xzz7lvLJlM2lLAvyIRy8DMd1E2stqOeiCLIE68AqwBZSAesF6fL+dzUbYWLSrNG+H9SlAB9oLDoA7U63oQ7ALlEjbHxpJFWao31ulaAkrBZtAIroAucFd0gxvgItijcaVpNmhzXg9mE1QMVoFKc944oOtWsEl/t4GXYASMik/gDbgFToAqsB3UBDYqZbt4waICQTTWBFpBh66nwRFwAfRKyBSYFr/BV/AUXAZnwHlwFXTKRpNsZxWWKWRe0CmJ6QNDoB/cBu3gPngHfkjIdMCkOe89Bw/BE/AKfJCtDtn2wuaEMhTEJGS86d4mDR4AE+An+A6GwaAmGDfnlTGbDd+YPvum67juKXRKtgZku0lzcc6i+UQxERl3urlPRuiJPzbrBU720dzqH4MecE/06LPX5kR6T3J8UvcTst2quThnVlEMHXcIE5IrGTLnodAgvfXWXD4xjC3guLlyUK/7Fn3Xq2c5Zlo2CD1GT3dqLs4ZyybKe4o7havoDwx6QQxdQhPXgm3m6pEvnOX6rFbPJDTG2+EC6W16mcm/zyI8RVGsQ9z23GVM6mEZ8YKug2ZQLRF8nrvVt5difRbXM80a44Vxccwxhpi7ksnOOjZv+PgA6xC3fbuMMYcYhoQmYe1ZLQFzqrO5xRXrmSqNScgGc4zJz13JcrHDXPhSCmooiK2Du4GuZx3itmfsmdSPzIWj2gtKF5NBnBdWrbG+rnGRz8zVsZPmQlih+WMam1IK2DraZIB1iKti/Ok1io0vRFCasLjG0gZ3JcM3ImF3zOVvowXlwYvyCc5extbhtzNXxfhzpUxg5ktkQ00LZYnGtsgWbU5KHKPwQvPWSMeMKIaOxw92ezZXroLblknJYsjaw63OnbVgL6V5q1w2emTTV/8pzdel+cukZ+Y/uph1hl1+NBjEe3b/Bj2z6PNRYL9Btrz9ZDBHt+aPZxIVDioIUXX6kscP32TzGj4eYQ+ZK3Q8D/lkzFui+93HIyxPjFTN48Z7y3NJ4FmaLt4Njklc/oqnDMQkbC3YAo5avttMYIy9r6AackEeXQr6kFdQx+HwtBD14jBkrgh+sVy+OAQhjHrFumauvgxqkl+Wq1esQNh8L6PN5n4rOGup29y3pX//MppBGN0bvrazhm0AO8E58MDcYfCz5fK1PS2UjDcTMfxxYpm5xrkfXAI3zTXy3P7AEQgrErHg3m+Ijeb6JRs5Txi5/ykoQqxvS1w5Txj/70ezCGGhB9JZkEey8RcWsz4VXoo7MgAAAABJRU5ErkJggg==" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <g>
+            <polyline points="8.62 10.44 6.52 7.41 10.56 3.37 13.32 5.46" style="fill: #fff"/>
+            <polyline points="7.77 19.52 4.15 18.86 4.15 13.14 7.58 12.67" style="fill: #fff"/>
+            <polyline points="13.6 26.54 10.56 28.63 6.52 24.59 8.61 21.83" style="fill: #fff"/>
+            <polyline points="22.67 27.38 22.01 31 16.29 31 15.82 27.57" style="fill: #fff"/>
+            <polyline points="29.68 21.56 31.78 24.59 27.74 28.63 24.98 26.54" style="fill: #fff"/>
+            <polyline points="30.53 12.48 34.15 13.14 34.15 18.86 30.72 19.33" style="fill: #fff"/>
+            <polyline points="24.71 5.46 27.74 3.37 31.78 7.41 29.69 10.17" style="fill: #fff"/>
+            <polyline points="15.63 4.62 16.29 1 22.01 1 22.48 4.43" style="fill: #fff"/>
+            <path d="M19.15,3.88A12.12,12.12,0,1,0,31.27,16,12.12,12.12,0,0,0,19.15,3.88ZM19,25.5A9.5,9.5,0,1,1,28.5,16,9.5,9.5,0,0,1,19,25.5Z" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
