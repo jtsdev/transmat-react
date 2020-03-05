@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
+  <defs>
+    <clipPath id="clip-path">
+      <circle cx="300" cy="301" r="151" style="fill: none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="301.27" y1="300.06" x2="332.86" y2="300.06" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.16"/>
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.19"/>
+      <stop offset="0.03" stop-color="#6cefff" stop-opacity="0.36"/>
+      <stop offset="0.06" stop-color="#6cefff" stop-opacity="0.51"/>
+      <stop offset="0.09" stop-color="#6cefff" stop-opacity="0.64"/>
+      <stop offset="0.13" stop-color="#6cefff" stop-opacity="0.75"/>
+      <stop offset="0.17" stop-color="#6cefff" stop-opacity="0.85"/>
+      <stop offset="0.22" stop-color="#6cefff" stop-opacity="0.92"/>
+      <stop offset="0.27" stop-color="#6cefff" stop-opacity="0.96"/>
+      <stop offset="0.34" stop-color="#6cefff" stop-opacity="0.99"/>
+      <stop offset="0.52" stop-color="#6cefff"/>
+      <stop offset="0.67" stop-color="#6cefff" stop-opacity="0.99"/>
+      <stop offset="0.74" stop-color="#6cefff" stop-opacity="0.96"/>
+      <stop offset="0.79" stop-color="#6cefff" stop-opacity="0.92"/>
+      <stop offset="0.83" stop-color="#6cefff" stop-opacity="0.85"/>
+      <stop offset="0.86" stop-color="#6cefff" stop-opacity="0.75"/>
+      <stop offset="0.9" stop-color="#6cefff" stop-opacity="0.64"/>
+      <stop offset="0.93" stop-color="#6cefff" stop-opacity="0.51"/>
+      <stop offset="0.95" stop-color="#6cefff" stop-opacity="0.36"/>
+      <stop offset="0.98" stop-color="#6cefff" stop-opacity="0.19"/>
+      <stop offset="1" stop-color="#6cefff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="267" y1="300.06" x2="298.58" y2="300.06" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient" cx="300.01" cy="300.06" r="8.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6cefff" stop-opacity="0.7"/>
+      <stop offset="0.47" stop-color="#6cefff" stop-opacity="0.9"/>
+      <stop offset="0.77" stop-color="#6cefff"/>
+    </radialGradient>
+  </defs>
+  <title>ghost_eye_block_1</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <g id="Ball">
+        <g id="Base">
+          <g style="clip-path: url(#clip-path)">
+            <circle cx="299" cy="300" r="151" style="fill: #3e474e"/>
+            <ellipse cx="297.5" cy="166.5" rx="76.5" ry="46.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="298.5" cy="166.5" rx="68" ry="41.33" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="169.5" cy="299.5" rx="41.5" ry="76.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="170.04" cy="299.5" rx="36.89" ry="68" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="424.5" cy="300.5" rx="39" ry="76.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="425.01" cy="300.5" rx="34.67" ry="68" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="297.5" cy="429.5" rx="76.5" ry="40.5" style="fill: #42464c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <ellipse cx="298.5" cy="429.5" rx="68" ry="36" style="fill: #292a2d;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+          </g>
+        </g>
+        <g id="Eye">
+          <g id="Base-2" data-name="Base">
+            <circle cx="299.5" cy="300.5" r="76.5" style="fill: #5a606c;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <circle cx="300.5" cy="300.5" r="68" style="fill: #777b86;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <circle cx="300" cy="300" r="62" style="fill: #384b59;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.5px"/>
+            <path d="M360,300.77a60,60,0,0,1-120,0c0-33.14,27.49-61,60.63-61S360,267.63,360,300.77Z" style="fill: #06193a;stroke: #000202;stroke-miterlimit: 10;stroke-width: 0.25px"/>
+          </g>
+          <g id="Glow">
+            <polygon id="Right" points="301.27 285.62 315.72 300.06 301.44 314.64 301.44 336.24 306.2 336.24 332.86 306.09 332.86 303.87 332.86 293.42 331.9 292.45 305.25 263.89 305.25 263.89 301.44 263.89 301.27 285.62" style="fill: url(#linear-gradient)"/>
+            <polygon id="Left" points="298.58 285.62 284.14 300.06 298.42 314.64 298.42 336.24 293.66 336.24 267 306.09 267 303.87 267 293.42 267.95 292.45 294.61 263.89 294.61 263.89 298.42 263.89 298.58 285.62" style="fill: url(#linear-gradient-2)"/>
+            <circle id="Center" cx="300.01" cy="300.06" r="8.4" style="fill: url(#radial-gradient)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Layer_3" data-name="Layer 3">
+      <rect width="600" height="600" style="fill: none"/>
+    </g>
+  </g>
+</svg>

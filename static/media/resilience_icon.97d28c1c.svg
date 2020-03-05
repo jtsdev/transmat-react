@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.02 88.59">
+  <title>resilience_icon</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_2-2" data-name="Layer 2">
+      <polygon points="85.29 65.21 43.79 85.8 2.51 64.88 2.72 23.38 44.01 2.8 85.51 23.71 85.29 65.21" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 5px"/>
+      <g>
+        <path d="M44,19.8h0Z" style="fill: #fff"/>
+        <path d="M65.3,23.3A86.78,86.78,0,0,1,44,19.8,86.78,86.78,0,0,1,22.75,23.3c-1,23,.3,44,21.28,51C65,67.28,66.3,46.29,65.3,23.3ZM44.41,70.75l-.4,0V23.3l.4,0a75.48,75.48,0,0,0,18.53,3C63.81,46.39,62.68,64.66,44.41,70.75Z" style="fill: #fff"/>
+        <path d="M44,74.3h0Z" style="fill: #fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

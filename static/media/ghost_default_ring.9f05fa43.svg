@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 93.57 95.88">
+  <title>ghost_default_ring</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Ghost_Btn_Ring" data-name="Ghost Btn Ring">
+      <path id="low_1" data-name="low 1" d="M42.53,5.33q2.1-.2,4.26-.2a44.43,44.43,0,0,1,5.17.3" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
+      <path id="connector" d="M57.24,4a46.28,46.28,0,1,1-20-.2" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-opacity:.4"/>
+      <path id="circle" d="M41.76.76a49.29,49.29,0,0,1,11,.1" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
+      <path id="connector-2" data-name="connector" d="M42.15,3q2.29-.23,4.64-.23a46.76,46.76,0,0,1,5.56.33" style="fill: none;stroke: #fff;stroke-miterlimit: 10"/>
+    </g>
+  </g>
+</svg>

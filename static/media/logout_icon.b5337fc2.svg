@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 32">
+  <title>logout_icon</title>
+  <g style="isolation: isolate">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Button_Backs" data-name="Button Backs">
+        <g>
+          <image width="29" height="32" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAgCAYAAADud3N8AAAACXBIWXMAAAsSAAALEgHS3X78AAADFUlEQVRIS82Xz29NQRTHTx/Rxs/Uq8gTC5poNdGNBQtqU1YiVSJNSMRSF1jaWHZFhC4qsUBE0y5QiRUWailBFaEkaBP8HfX9mu/kzb133r33IWXxyc2bO2++c86cc+ZcW1xctKWmcEJislmLqOTwa84fi2qhZaAVrAVV0BGhqvetmh8VLyvWpgW3gT5wEAyAwwEDGu/TvKr+lxHPE6xox/xzF9gPhsFVMAHuR5jQ+2HN5//Wa51Krqh2txp0gn4tMgYegVnwUcwF+LFZzeP802Af2ARWmCxuZCEFt4PjYFSLvAWf9JwGD8GUOQun9Hs6mPdGYxfAbnNnnRU1d4Z0RacEb4LXYAG8B4/NWXAWDFnyTIc0PqZ578AMuA4OgHaTi2Nu5RnSpaMS/KEFxrUoF+gGNUtGbk3jfH8G3AAPwAjYYzFLzVnJaOPh8wzp0gUJ3ganQK8EfFSG+emjnO93gKNa5xDYYs6DGVFvJXdKF/FM6NJxCfaANZaXf/UUY0xsNmc5nystHb1WP0vml7eSwcCzoUt7vWBMrEEwMlrb9Kwk3gei9DkTm3nGsGcU0mJa3lFWMG15dDzYGV3LisIEZ749lZXd2nFuPW2GUJTWMPTvSZQ5xjSo/Y6VzYoy2ef0HNR4JW+RZvmvRP+Jez+DZ7YEgeSjdxLMgw/gmrmUqf5Na71omKesuaxE38ETc8WiqxlrLdnWZNqXcFJYkViJvsnasEAsLxK2+uVPI9r1TFSlcHLshpnXBs6BnZYs9i0psbDubjV3s3Czu8wFY/YSt+xdekvCLPyTEuYidHXY/6RvGNbpE+CSubv0vBVc4mHXcFLCLyTM86Wrff/j79QNlrxLGfF3wEvwyoou8cDNFO4JhL2rY93DoGW7Bs77Cp6Di9boEi8QZtsyI+Evlu2T0v0Rn7wer4Bj5s44e4nnCPsG7TK4q8Xp7rAjjHWCPIZ+Ca6yohY0Isw/7gVHzPU/jO507xvreRlwiZ63UFTCPu/WgY3mAibd5Zfu7kuJSthXF58ase+ZUt8xpUUjG2j05Vb4xUZ+AqugNwt0gu9mAAAAAElFTkSuQmCC" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <path d="M23.22,22.12a11.05,11.05,0,1,1,0-15.63" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+        </g>
+        <g>
+          <image width="24" height="9" transform="translate(11 12)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAJCAYAAAAo/ezGAAAACXBIWXMAAAsSAAALEgHS3X78AAAAhUlEQVQoU7XTyw1AQBRGYSwsJcRGIzRgY0U3GlGAAmhDB6Kcce7kZz9kJJ8FmXMzHolzLjEcqWQ/+c7bVdxu5ChQof6oUsNamdp+ol1o0GHAiCnQqLWdWrna/mRTW8xYsWEPtGntrFbxDLDHU6LHggMnrkCn1i5qlWrH30HcdxD9K4r9H9ysgVmpRBNA8QAAAABJRU5ErkJggg==" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <line x1="13.5" y1="14.5" x2="30.5" y2="14.5" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+        </g>
+        <g>
+          <image width="16" height="17" transform="translate(24 8)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAACXBIWXMAAAsSAAALEgHS3X78AAAA0klEQVQ4T63TsQ7BQBzH8VNJiWDAIjGIREwWAw9gMgi7BzAZPIPN5gFsRmLlAbyATWIzYZHYkJxv44Z/pUmlp8lnaNL79dd/75TWWtnw3ygVk8IW+wK4HLhII4ME4mFB8s3e4iIaaKGKvAlyfgnIookxJhiijYppFdhG1s+hgzl22GCGAeooBLWRAd4DPSxxwhl7LDAybcpIyZDvgD7WuOCBO47YYoouSnDDAq544YkbDlipz1xqSCozj783sJqB1V+w3gd2O1F8RrSzIEKin8ao3im+knaAdDsmAAAAAElFTkSuQmCC" style="opacity: 0.36;mix-blend-mode: multiply"/>
+          <polygon points="32.5 14.5 28 11.9 28 17.1 32.5 14.5" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 3px"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
